@@ -41,6 +41,10 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['dashboard'] = "dashboard";
+$route['dashboard/panel'] = "panel";
+$route['dashboard/panel/guardar_btc'] = "panel/guardar_btc";
+$route['dashboard/panel/masive_messages'] = "panel/masive_messages";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
