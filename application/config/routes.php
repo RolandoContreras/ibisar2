@@ -41,6 +41,8 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+$route['home'] = 'home';
+
 $route['dashboard'] = "dashboard";
 $route['dashboard/panel'] = "panel";
 $route['dashboard/panel/guardar_btc'] = "panel/guardar_btc";
