@@ -36,7 +36,7 @@
                                                     <div class="vc_empty_space" style="height: 25px" >
                                                         <span class="vc_empty_space_inner"></span>
                                                     </div>
-                                                    <h2 style="text-align: left" class="vc_custom_heading" >We create brand new corporate identities</h2>
+                                                    <h2 style="text-align: left" class="vc_custom_heading" >Creamos un sistema de educación para tí</h2>
                                                     <div class="vc_empty_space"   style="height: 25px" >
                                                         <span class="vc_empty_space_inner"></span>
                                                     </div>
@@ -102,7 +102,7 @@
                                     <div class="cb-container kd-animated fadeInUp">
                                         <div class="cb-text-area">
                                             <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Management</span>
+                                                <span class="cb-highlighted">Coach</span>
                                             </h4>
                                             <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
                                         </div>
@@ -116,7 +116,7 @@
                                     <div class="cb-container kd-animated fadeInUp" data-animation-delay=200>
                                         <div class="cb-text-area">
                                             <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Development</span>
+                                                <span class="cb-highlighted">Maestros</span>
                                             </h4>
                                             <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
                                         </div>
@@ -130,7 +130,7 @@
                                     <div class="cb-container kd-animated fadeInUp" data-animation-delay=400>
                                         <div class="cb-text-area">
                                             <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Fast support</span>
+                                                <span class="cb-highlighted">Finanzas</span>
                                             </h4>
                                             <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
                                         </div>
@@ -147,7 +147,7 @@
         <section id="high-quality-services" class="section" style="background-color:#f8f8f8;">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-heading">High Quality Services</h2>
+                    <h2 class="section-heading">Alta calidad de enseñanza</h2>
                     <span class="heading-separator"></span>
                     <p class="section-subheading">Build a positive impact on your business. Check out what we have to offer.</p>
                 </div>
@@ -177,7 +177,7 @@
                                             <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
                                         </div>
                                         <div class="prb-content">
-                                            <h3>Strategy</h3>
+                                            <h3>Estrategia</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
                                             <div class="prb-btncontainer"> 
                                                 <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
@@ -210,7 +210,7 @@
                                             <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
                                         </div>
                                         <div class="prb-content">
-                                            <h3>Planning</h3>
+                                            <h3>Planeación</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
                                             <div class="prb-btncontainer"> 
                                                 <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
@@ -243,7 +243,7 @@
                                             <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
                                         </div>
                                         <div class="prb-content">
-                                            <h3>Development</h3>
+                                            <h3>Desarrollo</h3>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
                                             <div class="prb-btncontainer"> 
                                                 <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
@@ -268,7 +268,7 @@
             </div>
             <div class="container fullwidth">
                 <div class="row">
-                    <h2 class="section-heading">Latest Projects</h2> 
+                    <h2 class="section-heading">Videos Destacados</h2> 
                     <span class="heading-separator"></span>
                     <p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>
                 </div>
@@ -287,7 +287,7 @@
                                                     <h4>Brand Identity</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Learn more</a>
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -298,7 +298,7 @@
                                                 <div class="phb-content text-center">
                                                     <h4>UI&amp;UX Design</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Learn more</a>
+                                                    <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -310,7 +310,7 @@
                                                     <h4>Web Development</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Learn more</a>
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -322,7 +322,7 @@
                                                     <h4>SEO Services</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Learn more</a>
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -334,7 +334,7 @@
                                                     <h4>Marketing</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Learn more</a>
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -483,7 +483,7 @@
                                     <div class="vc_empty_space" style="height:20px">
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
-                                    <h2 style="line-height: 1.2;text-align: left" class="vc_custom_heading" >137 Finished Projects Worldwide</h2>
+                                    <h2 style="line-height: 1.2;text-align: left" class="vc_custom_heading" >Más de 15, 000 personas alrededor del mundo</h2>
                                     <div class="vc_empty_space" style="height: 15px">
                                         <span class="vc_empty_space_inner"></span>
                                     </div>
@@ -493,7 +493,7 @@
                                     </div> 
                                     <a href="#" target="_self" title="" class="tt_button pull-left kd-animated zoomIn" data-animation-delay=200>
                                         <span class=" iconita"></span>
-                                        <span class="prim_text">SHOW PROJECTS</span>
+                                        <span class="prim_text">Empieza Ahora</span>
                                     </a>
                                 </div>
                             </div>
@@ -763,140 +763,9 @@
         </section>
     
     </div>
-    <footer id="footer" class="fixed">
-        <div class="upper-footer">
-            <div class="container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 first-widget-area">
-                            <div class="footer_widget">
-                                <div class="textwidget">
-                                    <p><img src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/logo-footer.jpg" alt="Intact"></p>
-                                    <p>Imperdiet parturient eleifend scelerisque natoque parturient rutrum mus eros dis ullamcorper a ullamcorper.</p>
-                                </div>
-                            </div>
-                            <div class="footer_widget">
-                                <div class="socials-widget"> 
-                                    <a href="http://www.facebook.com/" target="_blank">
-                                        <span class="fa fa-facebook"></span>
-                                    </a> 
-                                    <a href="http://www.twitter.com/" target="_blank">
-                                        <span class="fa fa-twitter"></span>
-                                    </a> 
-                                    <a href="http://plus.google.com/" target="_blank">
-                                        <span class="fa fa-google-plus"></span>
-                                    </a> 
-                                    <a href="http://www.linkedin.com/" target="_blank">
-                                        <span class="fa fa-linkedin"></span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 second-widget-area">
-                            <div class="footer_widget">
-                                <h5 class="widget-title">
-                                    <span>Contact info</span>
-                                </h5>
-                                <div class="textwidget">
-                                    <address> 
-                                        <span class="footer-address-row">
-                                            <i class="fa fa-map-marker"></i>
-                                            <span class="address-overflow">49 Featherstone Street<br/>London<br/>United Kingdom</span>
-                                        </span> 
-                                        <span class="footer-phone-row">
-                                            <i class="fa fa-phone"></i>
-                                            <strong>Phone:</strong> [+44] 450 88 800</span> 
-                                        <span class="footer-email-row">
-                                            <i class="fa fa-envelope"></i>
-                                            <strong>E-Mail:</strong> 
-                                            <a href="mailto:contact@website.com">contact@website.com</a>
-                                        </span> 
-                                        <span class="footer-link-row">
-                                            <i class="fa fa-globe"></i>
-                                            <strong>Web:</strong> 
-                                            <a href="http://keydesign-themes.com/intact" target="_blank">keydesign-themes.com</a>
-                                        </span> 
-                                    </address>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 third-widget-area">
-                            <div class="footer_widget">
-                                <h5 class="widget-title">
-                                    <span>Additional links</span>
-                                </h5>
-                                <div class="menu-additional-links-container">
-                                    <ul id="menu-additional-links" class="menu">
-                                        <li id="menu-item-2408" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2408">
-                                            <a href="#">About us</a>
-                                        </li>
-                                        <li id="menu-item-2410" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2410">
-                                            <a href="#">Terms and conditions</a>
-                                        </li>
-                                        <li id="menu-item-2409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2409">
-                                            <a href="#">Privacy Policy</a>
-                                        </li>
-                                        <li id="menu-item-2413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2413">
-                                            <a href="#">News</a>
-                                        </li>
-                                        <li id="menu-item-2411" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2411">
-                                            <a href="#">Contact us</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 forth-widget-area">
-                            <div class="footer_widget">
-                                <h5 class="widget-title">
-                                    <span>Latest news</span>
-                                </h5>
-                                <ul>
-                                    <li> 
-                                        <a href="http://keydesign-themes.com/intact/business/future-design-concept/">Future design concept</a>
-                                        <span class="post-date">February 3, 2016</span>
-                                    </li>
-                                    <li> 
-                                        <a href="http://keydesign-themes.com/intact/business/stand-out-venues/">Stand out venues</a> 
-                                        <span class="post-date">January 25, 2016</span>
-                                    </li>
-                                    <li> 
-                                        <a href="http://keydesign-themes.com/intact/business/technology-upgraded/">Technology upgraded</a> 
-                                        <span class="post-date">January 25, 2016</span>
-                                    </li>
-                                    <li> 
-                                        <a href="http://keydesign-themes.com/intact/business/deliver-fresh-news/">Deliver fresh news</a> 
-                                        <span class="post-date">February 15, 2015</span>
-                                    </li>
-                                    <li> 
-                                        <a href="http://keydesign-themes.com/intact/business/development-solutions/">Development solutions</a> 
-                                        <span class="post-date">January 25, 2015</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="lower-footer">
-            <div class="container">
-                <div class="pull-left"> 
-                    <span>Copyright 2017 - Intact by KeyDesign. All rights reserved.</span>
-                </div>
-                <div class="pull-right">
-                    <ul id="menu-footer-menu" class="nav navbar-footer">
-                        <li id="menu-item-2487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2487">
-                            <a href="#">Privacy Policy</a>
-                        </li>
-                        <li id="menu-item-2488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2488">
-                            <a href="#">Terms and Conditions</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!--FOOTER-->
+   <?php $this->load->view("footer");?>
+    <!--END FOOTER-->
     <div class="back-to-top"> 
             <i class="fa fa-angle-up"></i>
     </div>
@@ -938,4 +807,83 @@
 						jQuery(sliderID).show().html(errorMessage);
 				}
             </script> 
-            <script type='text/javascript'>var wpcf7 = {"apiSettings":{"root":"http:\/\/keydesign-themes.com\/intact\/business\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};</script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8.1'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/bootstrap.min.js?ver=4.8.1'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/masonry.min.js?ver=3.3.2'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/SmoothScroll.js?ver=4.8.1'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/scripts.js?ver=4.8.1'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'></script> <div id="customizer" class="hidden-xs"><div class="options"> <a class="custom-tooltip switcher fa nc-icon-outline-laptop"><span class="intact-tooltip">Demo Switcher <span class="trialngle-tooltip"></span></span></a> <a class="custom-tooltip" href="http://keydesign-themes.com/intact/documentation/" target="_blank"><i class="fa nc-icon-outline-print"></i><span class="intact-tooltip">Documentation<span class="trialngle-tooltip"></span></span></a> <a class="custom-tooltip" href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" target="_blank"><i class="fa nc-icon-outline-cart"></i><span class="intact-tooltip">Purchase Theme<span class="trialngle-tooltip"></span></span></a></div><div id="demoselect"><div class="customizer-logo">Intact</div><p>Check our well designed demos for startups and mobile apps and install them with only one click.</p><div class="screenshot"> <a href="http://keydesign-themes.com/intact/creative-agency/" class="first"><span>Creative Agency</span><img src="http://keydesign-themes.com/intact/images/demo1.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/startup/" class="first"><span>Startup Demo</span><img src="http://keydesign-themes.com/intact/images/demo2.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/business/" class="first"><span>Business Demo</span><img src="http://keydesign-themes.com/intact/images/demo3.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/digital-product/" class="first"><span>Digital Product</span><img src="http://keydesign-themes.com/intact/images/demo4.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/marketing-agency/" class="first"><span>Marketing Agency</span><img src="http://keydesign-themes.com/intact/images/demo5.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/landing-page/" class="first"><span>Landing Page</span><img src="http://keydesign-themes.com/intact/images/demo6.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/conference/" class="first"><span>Conference Demo</span><img src="http://keydesign-themes.com/intact/images/demo7.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/shop-classic/" class="first"><span>Shop Classic</span><img src="http://keydesign-themes.com/intact/images/demo8.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/mobile-app/" class="first"><span>Mobile App Demo</span><img src="http://keydesign-themes.com/intact/images/demo9.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/corporate/" class="first"><span>Corporate Demo</span><img src="http://keydesign-themes.com/intact/images/demo10.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/simple-portfolio/" class="first"><span>Simple Portfolio</span><img src="http://keydesign-themes.com/intact/images/demo11.jpg" alt=""></a> <a href="http://keydesign-themes.com/intact/coming-soon/" class="first"><span>Coming Soon</span><img src="http://keydesign-themes.com/intact/images/demo12.jpg" alt=""></a></div></div> <a href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" class="tt_button" target="_blank"><span class="prim_text">PURCHASE NOW</span></a></div></body></html>
+            <script type='text/javascript'>var wpcf7 = {"apiSettings":{"root":"http:\/\/keydesign-themes.com\/intact\/business\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};</script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8.1'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/bootstrap.min.js?ver=4.8.1'>
+            </script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/masonry.min.js?ver=3.3.2'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/SmoothScroll.js?ver=4.8.1'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/scripts.js?ver=4.8.1'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script> 
+            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'>
+            </script> <div id="customizer" class="hidden-xs">
+                <div class="options"> 
+                    <a class="custom-tooltip switcher fa nc-icon-outline-laptop">
+                        <span class="intact-tooltip">Demo Switcher <span class="trialngle-tooltip"></span></span></a> 
+                        <a class="custom-tooltip" href="http://keydesign-themes.com/intact/documentation/" target="_blank">
+                            <i class="fa nc-icon-outline-print"></i>
+                            <span class="intact-tooltip">Documentation<span class="trialngle-tooltip"></span></span>
+                        </a> 
+                    <a class="custom-tooltip" href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" target="_blank">
+                        <i class="fa nc-icon-outline-cart"></i>
+                        <span class="intact-tooltip">Purchase Theme<span class="trialngle-tooltip"></span></span>
+                    </a>
+                </div>
+                <div id="demoselect">
+                    <div class="customizer-logo">Intact</div>
+                    <p>Check our well designed demos for startups and mobile apps and install them with only one click.</p>
+                    <div class="screenshot"> 
+                        <a href="http://keydesign-themes.com/intact/creative-agency/" class="first">
+                            <span>Creative Agency</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo1.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/startup/" class="first">
+                            <span>Startup Demo</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo2.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/business/" class="first">
+                            <span>Business Demo</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo3.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/digital-product/" class="first">
+                            <span>Digital Product</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo4.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/marketing-agency/" class="first">
+                            <span>Marketing Agency</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo5.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/landing-page/" class="first">
+                            <span>Landing Page</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo6.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/conference/" class="first">
+                            <span>Conference Demo</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo7.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/shop-classic/" class="first">
+                            <span>Shop Classic</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo8.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/mobile-app/" class="first">
+                            <span>Mobile App Demo</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo9.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/corporate/" class="first">
+                            <span>Corporate Demo</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo10.jpg" alt="">
+                        </a> 
+                        <a href="http://keydesign-themes.com/intact/simple-portfolio/" class="first">
+                            <span>Simple Portfolio</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo11.jpg" alt="">
+                        </a> <a href="http://keydesign-themes.com/intact/coming-soon/" class="first">
+                            <span>Coming Soon</span>
+                            <img src="http://keydesign-themes.com/intact/images/demo12.jpg" alt="">
+                        </a>
+                    </div>
+                </div> 
+                <a href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" class="tt_button" target="_blank">
+                    
+                </a>
+            </div>
+        </body>
+        </html>
