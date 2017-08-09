@@ -314,30 +314,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="kd-photobox no-effect">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-3.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-3.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-3-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>SEO Services</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="kd-photobox no-effect">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-5.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-5.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-5-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Marketing</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
                                         </div>
                                     </div>
                                     <script type="text/javascript">jQuery(document).ready(function($){
