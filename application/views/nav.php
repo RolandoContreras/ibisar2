@@ -14,7 +14,7 @@
             <div id="main-menu" class="collapse navbar-collapse  navbar-right">
                 <ul id="menu-main-menu" class="nav navbar-nav">
                     <li id="menu-item-2377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-2377 dropdown active">
-                        <a title="Home" href="<?php echo site_url().'home';?>">Inicia</a>
+                        <a title="Home" href="<?php echo site_url().'home';?>">Inicio</a>
                     </li>
                     <li id="menu-item-2379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2379 one-page-link">
                         <a title="Services" href="http://keydesign-themes.com/intact/business/home/high-quality-services/">Servicios</a>
@@ -29,7 +29,7 @@
                         <a title="Contact" href="http://keydesign-themes.com/intact/business/home/get-in-touch/">Contacto</a>
                     </li>
                     <li id="menu-item-2623" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2623 dropdown">
-                        <a title="Works" href="#">Login</a>
+                        <a title="Login" href="#">Login</a>
                     </li>
                 </ul> 
             </div>

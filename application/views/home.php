@@ -268,9 +268,9 @@
             </div>
             <div class="container fullwidth">
                 <div class="row">
-                    <h2 class="section-heading">Videos Destacados</h2> 
+                    <h2 class="section-heading">Vídeos Destacados</h2> 
                     <span class="heading-separator"></span>
-                    <p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>
+                    <!--<p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>-->
                 </div>
                 <div class="row">
                     <div class="vc_row wpb_row vc_row-fluid container vc_custom_1486305580995">
@@ -281,10 +281,10 @@
                                         <div class="pbc-content">
                                             <div class="kd-photobox no-effect kd-animated fadeInUp">
                                                 <div class="photobox-img">
-                                                    <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-1.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-1.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-1-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso1.jpg';?>" class="attachment-full" alt="curso"/>
                                                 </div>
                                                 <div class="phb-content text-center">
-                                                    <h4>Brand Identity</h4>
+                                                    <h4>Pequeños Líderes</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
                                                         <a href="#"  title="" class="phb-button">Ver</a>
@@ -293,10 +293,10 @@
                                             </div>
                                             <div class="kd-photobox no-effect kd-animated fadeInUp">
                                                 <div class="photobox-img">
-                                                    <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-2.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-2.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-2-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso2.png';?>" class="attachment-full" alt="curso"/>
                                                 </div>
                                                 <div class="phb-content text-center">
-                                                    <h4>UI&amp;UX Design</h4>
+                                                    <h4>Certificación Marketing</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Ver</a>
                                                     </div>
@@ -304,10 +304,10 @@
                                             </div>
                                             <div class="kd-photobox no-effect kd-animated fadeInUp">
                                                 <div class="photobox-img">
-                                                    <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-4.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-4.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-4-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso3.png';?>" class="attachment-full" alt="curso"/>
                                                 </div>
                                                 <div class="phb-content text-center">
-                                                    <h4>Web Development</h4>
+                                                    <h4>Ahorrar dinero para invertir</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                                     <div class="phb-btncontainer"> 
                                                         <a href="#"  title="" class="phb-button">Ver</a>
@@ -359,6 +359,79 @@
                     </div>
                 </div>
             </div>
+            
+            
+            
+            <div class="container fullwidth">
+                <div class="row">
+                    <h2 class="section-heading">Cursos Online</h2> 
+                    <span class="heading-separator"></span>
+                    <!--<p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>-->
+                </div>
+                <div class="row">
+                    <div class="vc_row wpb_row vc_row-fluid container vc_custom_1486305580995">
+                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="photobox-carousel kd-pbc-598a5c5104868 pbc-parent">
+                                        <div class="pbc-content">
+                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
+                                                <div class="photobox-img">
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso4.png';?>" class="attachment-full" alt="curso"/>
+                                                </div>
+                                                <div class="phb-content text-center">
+                                                    <h4>Como usar tus miedos</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    <div class="phb-btncontainer"> 
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
+                                                <div class="photobox-img">
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso5.jpg';?>" class="attachment-full" alt="curso"/>
+                                                </div>
+                                                <div class="phb-content text-center">
+                                                    <h4>Complemento de Ventas</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Ver</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
+                                                <div class="photobox-img">
+                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso6.jpg';?>" class="attachment-full" alt="curso"/>
+                                                </div>
+                                                <div class="phb-content text-center">
+                                                    <h4>Hablar en Público</h4>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                    <div class="phb-btncontainer"> 
+                                                        <a href="#"  title="" class="phb-button">Ver</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <script type="text/javascript">jQuery(document).ready(function($){
+                                        if ($(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").length) {
+                                          $(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").owlCarousel({
+                                            itemsDesktop: [1199,4],
+                                              itemsTablet: [768,2],
+                                              itemsMobile: [479,1],
+                                              navigation: false,
+                                              pagination: true,autoPlay: false,stopOnHover: false,items: 3,
+                                            addClassActive: true,
+                                          });
+                                        }
+          				});
+                                    </script>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
         </section>
         <!--END VIDEO SELECTOS-->
         <section id="the-best-team-available" class="section" style="padding-bottom:0px;">
