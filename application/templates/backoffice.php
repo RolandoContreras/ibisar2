@@ -4,12 +4,13 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-   <meta name="description" content="BitShare (compartir Bitcoin) es una plataforma financiera con el fin de ayudar a capitalizar y dar herramientas para un crecimiento económico y personal a las personas en este nuevo cambio de era.">
-   <meta name="keywords" content="bitshare, software, multinivel, binario, negocio, mlm, dinero, bitcoin, millones">
+   <meta name="author" content="ibisar">
+    <meta name="description" content="Equipo con la visión de ayudar a las personas en una superación personal y económica">
+    <meta name="keywords" content="ibisar,bisar,multinivel,binario,negocio,mlm,dinero,bitcoin,millones,educacion,futuro ">
     <link rel="icon" href="<?php echo site_url().'static/page_front/images/favicon.ico'?>" type="image/x-icon">
     <link rel="shortcut icon" href="<?php echo site_url().'static/page_front/images/favicon.ico'?>" type="image/x-icon">
     <meta name="robots" CONTENT="noindex, nofollow" />
-    <title>BITSHARE</title>
+    <title>I BISAR</title>
        <!-- FONT AWESOME-->
        <link rel="stylesheet" href="<?php echo site_url().'static/backoffice/css/font-awesome.min.css';?>">
        <!-- SIMPLE LINE ICONS-->
@@ -45,11 +46,10 @@
 	            <div class="navbar-header">
 	               	<a href="#" class="navbar-brand">
 	                  	<div class="brand-logo">
-                                   
-                                    <img src="<?php echo site_url().'static/backoffice/images/logo_bitshore.png';?>" alt="Logo" class="img-responsive">
+                                    <img src="<?php echo site_url().'static/page_front/images/bisar_logo_text.png';?>" alt="Logo" class="img-responsive">
 	                  	</div>
 	                  	<div class="brand-logo-collapsed">
-                                    <img src="<?php echo site_url().'static/backoffice/images/logo_b.png';?>" style="max-height: 40;" alt="App Logo" class="img-responsive">
+                                    <img src="<?php echo site_url().'static/page_front/images/bisar_logo.png';?>" style="max-height: 40px;" alt="App Logo" class="img-responsive">
 	                  	</div>
 	               	</a>
 	            </div>
@@ -109,7 +109,7 @@
                                             <!-- User picture-->
                                                 <div class="user-block-picture">
                                                 <div class="user-block-status">
-                                                <a><img src="<?php echo site_url().'static/backoffice/images/logo.png';?>" alt="logo" class="img-thumbnail img-circle"></a>
+                                                <a><img src="<?php echo site_url().'static/page_front/images/bisar_logo.png';?>" alt="logo" class="img-thumbnail "></a>
                                                 <?php if($_SESSION['customer']['active'] == 1){ ?>
                                                     <div class="circle circle-success circle-lg"></div>
                                                 <?php }else{ ?>
@@ -202,85 +202,40 @@
 	                     		</a>
                                             
 	                  		</li>
-                                        <li class="<?php echo $infoproductos ?>">
-                                            <a target="_blank" href="<?php echo 'http://www.bitsharesuniversity.com/';?>" title="Info Productos">
-                                            <em class="fa fa-cart-plus fa-lg" aria-hidden="true"></em>
-                                            <span>Bitshares University</span>
-	                     		</a>
-	                  		</li>
                                         <li class="<?php echo $style_misdatos ?>">
-                                            <a href="<?php echo site_url().'backoffice/misdatos'?>" title="Mi Datos">
+                                            <a href="javascript:void(0);" title="Mi Datos">
                                             <em class="fa fa-address-book fa-lg" aria-hidden="true"></em>
                                             <span>Mi Perfil</span>
 	                     		</a>
 	                  		</li>
                                         <li class="<?php echo $style_upgrade ?>">
-                                            <a href="<?php echo site_url().'backoffice/upgrade'?>" title="Upgrade">
-                                            <em class="fa fa-arrow-up fa-lg" aria-hidden="true"></em>
-                                            <span>Upgrade</span>
+                                            <a href="javascript:void(0);" title="Upgrade">
+                                            <em class="fa fa-book fa-lg" aria-hidden="true"></em>
+                                            <span>Mis Cursos</span>
 	                     		</a>
 	                  		</li>
-                                        <li class="<?php echo $style_mired;?>">
-			                    <a href="#tree" title="Solicitudes" data-toggle="collapse">
-			                        <em class="icon-organization fa-lg"></em>
-			                        <span>Mi red</span>
-			                    </a>
-                                            <ul id="tree" class="nav sidebar-subnav collapse">
-                                                    <li class="sidebar-subnav-header">Arbol</li>
-                                                    <li class="">
-                                                        <a href="<?php echo site_url().'backoffice/binario';?>" title="Arbol Binario">
-                                                            <span>Arbol Binario</span>
-                                                            </a>
-                                                    </li>
-                                                    <li class="">
-                                                            <a href="<?php echo site_url().'backoffice/unilevel';?>" title="Arbol Unilevel">
-                                                            <span>Arbol Unilevel</span>
-                                                            </a>
-                                                    </li>
-                                            </ul>
+                                        <li class="<?php echo $style_information_center;?>">
+                                            <a href="javascript:void(0);" title="Billetera">
+                                                <em class="fa fa-newspaper-o fa-lg" aria-hidden="true"></em>
+                                                <span>Noticias</span>
+                                            </a>
 	                  		</li>
                                         <li class="<?php echo $style_information_center;?>">
-                                            <a href="<?php echo site_url().'backoffice/centro-informacion';?>" title="Billetera">
-                                                <em class="fa fa-cloud-download fa-lg" aria-hidden="true"></em>
-                                                <span><?php echo replace_vocales_voculeshtml("Centro de Información");?></span>
+                                            <a href="javascript:void(0);" title="Billetera">
+                                                <em class="fa fa-tasks fa-lg" aria-hidden="true"></em>
+                                                <span>Programas</span>
                                             </a>
 	                  		</li>
 	                  		<li class="<?php echo $style_comisiones;?>">
-                                            <a href="#comisiones" title="Comisiones" data-toggle="collapse">
-			                        <em class="icon-chart fa-lg"></em>
-			                        <span>Mis Comisiones</span>
+                                            <a href="javascript:void(0);" title="Comisiones" data-toggle="collapse">
+			                        <em class="fa fa-certificate fa-lg"></em>
+			                        <span>Certificaciones</span>
 			                    </a>
-                                            <ul id="comisiones" class="nav sidebar-subnav collapse">
-                                                <li class="sidebar-subnav-header">Comisiones</li>
-                                                <li class="">
-                                                        <a href="<?php echo site_url().'backoffice/comisiones';?>" title="Mis Comisiones">
-                                                        <span>Mis Comisiones</span>
-                                                        </a>
-                                                </li>
-                                                <li class="">
-                                                        <a href="<?php echo site_url().'backoffice/balance';?>" title="Mi Balance">
-                                                        <span>Mi Balance</span>
-                                                        </a>
-                                                </li>
-                                            </ul>
 	                  		</li>
-
-	                  		<li class="<?php echo $style_billetera;?>">
-                                            <a href="<?php echo site_url().'backoffice/billetera';?>" title="Billetera">
-                                                <em class="icon-wallet fa-lg"></em> 
-                                                <span>Mi Billetera</span>
-                                            </a>
-	                  		</li>
-<!--                                        <li class="<?php echo $style_holding;?>">
-                                            <a href="#" title="Holding">
-                                                <em class="fa fa-link fa-lg"></em>
-                                                <span>Enlaces de Holding</span>
-                                            </a>
-	                  		</li>-->
-	                  		<li class="<?php echo $style_pagos;?>">
-			                    <a href="<?php echo site_url().'backoffice/pagos';?>" title="Pagos">
-                                                <em class="fa fa-university fa-lg" aria-hidden="true"></em>
-			                        <span>Solicitar Pago</span>
+                                        <li class="<?php echo $style_comisiones;?>">
+                                            <a href="javascript:void(0);" title="Comisiones" data-toggle="collapse">
+			                        <em class="fa fa-sign-out fa-lg"></em>
+			                        <span>Salir</span>
 			                    </a>
 	                  		</li>
 	               		</ul>
