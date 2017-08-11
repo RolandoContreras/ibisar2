@@ -42,6 +42,11 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
 $route['home'] = 'home';
+$route['login'] = 'login';
+
+$route['backoffice'] = "b_home";
+$route['logout'] = "b_home/logout";
+$route['backoffice/misdatos'] = "b_data";
 
 $route['dashboard'] = "dashboard";
 $route['dashboard/panel'] = "panel";
