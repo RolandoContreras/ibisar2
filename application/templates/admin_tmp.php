@@ -3,7 +3,7 @@
 <!-- Mirrored from wbpreview.com/previews/WB0LX21H9/ by HTTrack Website Copier/3.x [XR&CO'2010], Thu, 06 Sep 2012 04:37:29 GMT -->
     <head>
         <meta charset="utf-8">
-        <title>BITSHARE CMS Admin</title>
+        <title>IBISAR CMS Admin</title>
         <base href="<?php echo site_url();?>">
         <link rel="shortcut icon" href="<?php echo site_url().'static/images/icon.ico';?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -44,7 +44,9 @@
     <div id="header" class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container-fluid">
-                <a class="brand" href="<?php echo site_url();?>dashboard/panel">Bitshare</a> 
+                <img src="<?php echo site_url().'static/page_front/images/bisar_logo.png';?>" width="50" alt="logo" /> 
+                <a class="brand" href="<?php echo site_url();?>dashboard/panel">IBISAR - ADMIN</a> 
+                
                 <div class="btn-toolbar pull-right">                        
                 <!-- /btn-group -->
                     <div class="btn-group">
@@ -80,6 +82,8 @@
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/clientes";?>"><i class="icon-large icon-th"></i>Clientes</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/cursos";?>"><i class="icon-large icon-th"></i>Cursos</a></li>
+                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
                                             <?php if($_SESSION['usercms']['privilage'] == 3){ ?>
                                             <li><a href="<?php echo site_url()."dashboard/usuarios";?>"><i class="icon-large icon-th"></i>Usuarios</a></li>
                                             <?php } ?>
@@ -104,55 +108,23 @@
                                         </div>
                                     </div>
                             </div>
-                        
-                            <div class="accordion-group">
-                                    <div class="accordion-heading">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#pagos">
-                                        Pagos Diarios
-                                        </a>
-                                    </div>
-                                    <div id="pagos" class="accordion-body collapse">
-                                      <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                             <li><a href="<?php echo site_url()."dashboard/pagos_diarios";?>"><i class="icon-large icon-th"></i>Pagos Diarios</a></li>
-                                        </ul>
-                                        </div>
-                                    </div>
-                            </div>
-                        
-                        <div class="accordion-group">
-                                    <div class="accordion-heading">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#cobros">
-                                        Cobros
-                                        </a>
-                                    </div>
-                                    <div id="cobros" class="accordion-body collapse">
-                                      <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                             <li><a href="<?php echo site_url()."dashboard/cobros";?>"><i class="icon-large icon-th"></i>Cobros</a></li>
-                                        </ul>
-                                        </div>
-                                    </div>
-                            </div>
-                        
-    
-                            <div class="accordion-group">
-                                    <div class="accordion-heading">
-                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#recargas">
-                                        Recargas
-                                        </a>
-                                    </div>
-                                    <div id="recargas" class="accordion-body collapse">
-                                      <div class="accordion-inner">
-                                        <ul class="nav nav-list">
-                                             <li><a href="<?php echo site_url()."dashboard/recargas";?>"><i class="icon-large icon-th"></i>Recargas de Saldo</a></li>
-                                        </ul>
-                                        </div>
-                                    </div>
-                            </div>
                             <?php } ?>
-                            
-                        
+                            <div class="accordion-group">
+                                <div class="accordion-heading">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#mensajes">
+                                    Mensajes
+                                    </a>
+                                </div>
+                                <div id="mensajes" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <ul class="nav nav-list">
+                                            <li>
+                                                <a href="<?php echo site_url()."dashboard/reportes/asociados";?>"><i class="icon-large icon-th"></i>Mensajes</a>
+                                            </li>
+                                        </ul>                                     
+                                    </div>
+                                </div>
+                            </div>
                             <div class="accordion-group">
                                 <div class="accordion-heading">
                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionSB" href="#reportes">
@@ -167,9 +139,6 @@
                                             </li>
                                             <li>                                        
                                                 <a href="<?php echo site_url()."dashboard/reportes/cuentas";?>"><i class="icon-large icon-th"></i>Cuentas</a>
-                                            </li>
-                                            <li>                                        
-                                                <a href="<?php echo site_url()."dashboard/reportes/pagos";?>"><i class="icon-large icon-th"></i>Pagos</a>
                                             </li>
                                             <li>                                        
                                                 <a><i class="icon-large icon-th"></i>Proyecciones</a>
