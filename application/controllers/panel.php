@@ -32,14 +32,6 @@ class Panel extends CI_Controller{
             );
         $obj_last_comment = $this->obj_comments->get_search_row($params);
         
-        //GET PRICE BTC
-        $params = array(
-                        "select" =>"", 
-                        "where" =>"otros_id = 1", 
-            );
-        $obj_otros = $this->obj_otros->get_search_row($params);
-        $price_btc = $obj_otros->precio_btc;
-        
         //GET AND COUNT ALL THE CUSTOMER
         $params = array("select" =>"count(customer_id) as customer_id,
                                     (select count(customer_id) from customer where financy = 1) as financiado");

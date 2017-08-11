@@ -69,9 +69,9 @@
             </div>
         </div>
         	
-        <script src="static/cms/js/core/jquery.js"></script>        
-        <script src="static/cms/js/core/bootstrap.js"></script>	                    
-        <script src="static/cms/js/core/bootstrap-alert.js"></script>
-        <script src="static/cms/js/login.js"></script>
+        <script src="<?php echo site_url().'static/cms/js/core/jquery.js';?>"></script>        
+        <script src="<?php echo site_url().'static/cms/js/core/bootstrap.js';?>"></script>	                    
+        <script src="<?php echo site_url().'static/cms/js/core/bootstrap-alert.js';?>"></script>
+        <script src="<?php echo site_url().'static/cms/js/login.js';?>"></script>
     </body>
 </html>
