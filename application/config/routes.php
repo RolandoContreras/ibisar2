@@ -48,5 +48,31 @@ $route['dashboard/panel'] = "panel";
 $route['dashboard/panel/guardar_btc'] = "panel/guardar_btc";
 $route['dashboard/panel/masive_messages'] = "panel/masive_messages";
 
+$route['dashboard/clientes'] = "d_customer";
+$route['dashboard/financiados'] = "d_customer/financiados";
+$route['dashboard/clientes/active_customer'] = "d_customer/active_customer";
+$route['dashboard/clientes/no_active_customer'] = "d_customer/no_active_customer";
+$route['dashboard/clientes/load/([0-9]+)'] = "d_customer/load/$1";
+$route['dashboard/clientes/validate'] = "d_customer/validate";
+
+$route['dashboard/comentarios'] = "d_comments";
+$route['dashboard/comentarios/cambiar_status'] = "d_comments/change_status";
+$route['dashboard/comentarios/cambiar_status_no'] = "d_comments/change_status_no";
+
+$route['dashboard/usuarios'] = "d_users";
+$route['dashboard/usuarios'] = "d_users";
+$route['dashboard/usuarios/load'] = "d_users/load";
+$route['dashboard/usuarios/load/([0-9]+)'] = "d_users/load/$1";
+$route['dashboard/usuarios/validate'] = "d_users/validate";
+
+$route['dashboard/activaciones'] = "d_activate";
+$route['dashboard/activaciones/active_customer'] = "d_activate/active_customer";
+$route['dashboard/activaciones/active'] = "d_activate/active";
+
+$route['dashboard/comentarios'] = "d_comments";
+$route['dashboard/comentarios/cambiar_status'] = "d_comments/change_status";
+$route['dashboard/comentarios/cambiar_status_no'] = "d_comments/change_status_no";
+
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
