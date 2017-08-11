@@ -44,8 +44,8 @@ class Panel extends CI_Controller{
         $modulos ='Home'; 
         $link_modulo =  site_url().$modulos; 
         $seccion = 'Vista global';        
+
         $this->tmp_mastercms->set('obj_financiado',$obj_financiado);
-        $this->tmp_mastercms->set('price_btc',$price_btc);
         $this->tmp_mastercms->set('obj_customer',$obj_customer);
         $this->tmp_mastercms->set('obj_last_comment',$obj_last_comment);
         $this->tmp_mastercms->set('obj_comments',$obj_comments);
