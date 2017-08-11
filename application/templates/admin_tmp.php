@@ -82,8 +82,8 @@
                                         <ul class="nav nav-list">
                                             <li><a href="<?php echo site_url()."dashboard/clientes";?>"><i class="icon-large icon-th"></i>Clientes</a></li>
                                             <li><a href="<?php echo site_url()."dashboard/comentarios";?>"><i class="icon-large icon-th"></i>Comentarios</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/cursos";?>"><i class="icon-large icon-th"></i>Cursos</a></li>
-                                            <li><a href="<?php echo site_url()."dashboard/categorias";?>"><i class="icon-large icon-th"></i>Categorias</a></li>
+                                            <li><a href="javascript:void(0);"><i class="icon-large icon-th"></i>Cursos</a></li>
+                                            <li><a href="javascript:void(0);"><i class="icon-large icon-th"></i>Categorias</a></li>
                                             <?php if($_SESSION['usercms']['privilage'] == 3){ ?>
                                             <li><a href="<?php echo site_url()."dashboard/usuarios";?>"><i class="icon-large icon-th"></i>Usuarios</a></li>
                                             <?php } ?>
@@ -119,7 +119,7 @@
                                     <div class="accordion-inner">
                                         <ul class="nav nav-list">
                                             <li>
-                                                <a href="<?php echo site_url()."dashboard/reportes/asociados";?>"><i class="icon-large icon-th"></i>Mensajes</a>
+                                                <a href="javascript:void(0);"><i class="icon-large icon-th"></i>Mensajes</a>
                                             </li>
                                         </ul>                                     
                                     </div>
@@ -135,10 +135,10 @@
                                     <div class="accordion-inner">
                                         <ul class="nav nav-list">
                                             <li>
-                                                <a href="<?php echo site_url()."dashboard/reportes/asociados";?>"><i class="icon-large icon-th"></i>Asociados</a>
+                                                <a href="javascript:void(0);"><i class="icon-large icon-th"></i>Asociados</a>
                                             </li>
                                             <li>                                        
-                                                <a href="<?php echo site_url()."dashboard/reportes/cuentas";?>"><i class="icon-large icon-th"></i>Cuentas</a>
+                                                <a href="javascript:void(0);"><i class="icon-large icon-th"></i>Cuentas</a>
                                             </li>
                                             <li>                                        
                                                 <a><i class="icon-large icon-th"></i>Proyecciones</a>
