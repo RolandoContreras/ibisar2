@@ -151,48 +151,73 @@
                         </div>
                 </div>
 
-                <div id="popular_posts" class="widget_container">
-                        <div class="well">
-                                <div class="navbar navbar-static navbar_as_heading">
-                                        <div class="navbar-inner">
-                                                <div class="container" style="width: auto;">
-                                                        <a class="brand">Últimos Mensajes Masivos</a>
-                                                </div>
-                                        </div>
+                <div id="quick_post" class="widget_container">
+                    <div class="well">
+                            <div class="navbar navbar-static navbar_as_heading">
+                                    <div class="navbar-inner">
+                                            <div class="container" style="width: auto;">
+                                                    <a class="brand">Cargar Vídeos</a>
+                                            </div>
+                                    </div>
+                            </div>
+                          <form>
+                            <fieldset>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <select>
+                                            <option value="volvo" selected>Seleccionar Categoria</option>
+                                            <option value="volvo">Desarrollo Personal</option>
+                                            <option value="saab">Finanzas</option>
+                                            <option value="vw">Intensivo</option>
+                                            <option value="audi">Destacados</option>
+                                        </select>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <span class="add-on"><i class="icon-edit"></i></span>
+                                        <input class="input-large" size="16" type="text" id="title"  name="title" style="width:88%;" placeholder="<?php echo replace_vocales_voculeshtml("Título Vídeo");?>" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <span class="add-on"><i class="icon-edit"></i></span>
+                                        <input class="input-large" size="16" type="text" id="title"  name="title" style="width:88%;" placeholder="<?php echo replace_vocales_voculeshtml("Dirección del Vídeo");?>" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <div class="input-prepend">
+                                        <span class="add-on"><i class="icon-edit"></i></span>
+                                        <input class="input-large" size="16" type="text" id="title"  name="title" style="width:88%;" placeholder="<?php echo replace_vocales_voculeshtml("Dirección de la imagen");?>" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <div class="controls">
+                                    <textarea class="input-large" id="message_content" name="message_content" rows="5" style="width:97%;height:180px;" placeholder="Sumilla"></textarea>
+                                </div>
+                            </div>    
+                            <div class="control-group">
+                                <div class="controls">
+                                    <textarea class="input-large" id="message_content" name="message_content" rows="5" style="width:97%;height:180px;" placeholder="Content"></textarea>
+                                </div>
+                            </div>
+                                
+                                
 
-                                <table class="table">
-                                        <tbody>
-                                                <tr>
-                                                        <td>1</td>
-                                                        <td><a href="#">Post Title Here</a></td>
-                                                        <td><i class="icon-large icon-chat"></i> <a href="#">25 Comments</a></td>
-                                                </tr>
-                                                <tr>
-                                                        <td>2</td>
-                                                        <td><a href="#">Post Title Here</a></td>
-                                                        <td><i class="icon-large icon-chat"></i> <a href="#">20 Comments</a></td>
-                                                </tr>
-                                                <tr>
-                                                        <td>3</td>
-                                                        <td><a href="#">Post Title Here</a></td>
-                                                        <td><i class="icon-large icon-chat"></i> <a href="#">15 Comments</a></td>
-                                                </tr>
-                                                <tr>
-                                                        <td>4</td>
-                                                        <td><a href="#">Post Title Here</a></td>
-                                                        <td><i class="icon-large icon-chat"></i> <a href="#">10 Comments</a></td>
-                                                </tr>
-                                                <tr>
-                                                        <td>5</td>
-                                                        <td><a href="#">Post Title Here</a></td>
-                                                        <td><i class="icon-large icon-chat"></i> <a href="#">5 Comments</a></td>
-                                                </tr>
-                                        </tbody>
-                                </table>
-                                <a href="#" class="btn btn-duadua">View More</a>
-                        </div>
-                </div>
+                            <a onclick="javascript:void(0);" class="btn btn-primary">Publicar</a>
+
+                            </fieldset>
+                            </form>
+                    </div>
+            </div>
         </div>
 </div>
 <script src="static/cms/js/panel.js"></script>
