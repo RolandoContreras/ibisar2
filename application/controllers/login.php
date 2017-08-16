@@ -42,7 +42,6 @@ class Login extends CI_Controller {
                 $data['message'] = "false";       
                 
     	    }else{
-                
                 $data['message'] = "true";
     	        $data['print'] = "Bienvenido al sistema";
                 $data['url'] = site_url()."backoffice";               

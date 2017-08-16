@@ -55,7 +55,7 @@ function send_login(){
     if(username != "" && password != ""){
         $.ajax({
         type: "Post",
-        url: "Login/validate",
+        url: "login/validate",
         dataType: "json",
         data: {username : username, password:password},
         success:function(data){            

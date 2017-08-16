@@ -1,938 +1,899 @@
 <!DOCTYPE html>
-<html lang="en-US">
-<?php $this->load->view("head");?>    
-<body class="home page-template-default page page-id-2 page-parent wpb-js-composer js-comp-ver-5.1.1 vc_responsive">
-    <div id="preloader">
-        <div class="spinner"></div>
-    </div>
-        <div class="modal fade popup-modal" id="popup-modal" role="dialog">
-            <div class="modal-content">
-                <div class="row">
-                    <h2>Just ask. Get answers.</h2>
-                       <div class="heading-separator"></div>
-                       <div class="modal-content-inner"> [contact-form-7 404 "Not Found"]</div>
-                </div>
-            </div>
-        </div>
-    <!--NAV-->
-<?php $this->load->view("nav");?>    
-    <!--END NAV-->
-    <div id="wrapper">
-        <!--HEADER AND SLIDES-->
-        <?php $this->load->view("header");?>
-        <!--END HEADER-->
-        <!--SECTION-->
-        <section id="about-us" class="section" style="padding-bottom:110px;">
-            <div class="container">
-                <div class="row" ></div>
-                <div class="row"><div class="vc_row wpb_row vc_row-fluid vc_custom_1486647104804">
-                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-6 vc_col-md-12 vc_col-xs-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                        <div class="wpb_column vc_column_container vc_col-sm-8">
-                                            <div class="vc_column-inner vc_custom_1486561683026">
-                                                <div class="wpb_wrapper">
-                                                    <div class="vc_empty_space" style="height: 25px" >
-                                                        <span class="vc_empty_space_inner"></span>
-                                                    </div>
-                                                    <h2 style="text-align: left" class="vc_custom_heading" >Creamos un sistema de educación para tí</h2>
-                                                    <div class="vc_empty_space"   style="height: 25px" >
-                                                        <span class="vc_empty_space_inner"></span>
-                                                    </div>
-                                                    <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_border_width_2 vc_sep_pos_align_left vc_separator_no_text">
-                                                        <span class="vc_sep_holder vc_sep_holder_l">
-                                                            <span  style="border-color:#3b55e6;" class="vc_sep_line"></span>
-                                                        </span>
-                                                        <span class="vc_sep_holder vc_sep_holder_r">
-                                                            <span  style="border-color:#3b55e6;" class="vc_sep_line"></span>
-                                                        </span>
-                                                    </div>
-                                                    <p style="font-size: 18px;line-height: 1.4;text-align: left" class="vc_custom_heading" >Understanding your requirements and objectives is important to us. We listen and work together to create a trully unique and unforgettable experience.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                            <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-6 vc_col-md-12 vc_col-xs-12">
-                            <div class="vc_column-inner vc_custom_1488279059339">
-                                <div class="wpb_wrapper">
-                                    <div class='video-container'> 
-                                        <img width="600" height="360" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/video.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/video.jpg 600w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/video-300x180.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" />
-                                        <a data-toggle='modal' data-target='#video-modal-PW4' data-backdrop='true'>
-                                            <span class='play-video'>
-                                                <span class='fa fa-play'></span>
-                                            </span>
-                                        </a>
-                                    </div>
-                                    <div class='modal fade video-modal' id='video-modal-PW4' role='dialog'>
-                                        <div class='modal-content'>
-                                            <div class='row'> 
-                                                <iframe width='712' height='400' src='//www.youtube.com/embed/nrJtHemSPW4' allowfullscreen></iframe>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1486647094522">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner vc_custom_1486647090423">
-                                <div class="wpb_wrapper">
-                                    <div class="kd-divider solid_line divider_full_width thin_solid">
-                                        <div class="divider-line" style="border-color:"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--CARACTERISTICAS-->
-                    <div class="vc_row wpb_row vc_row-fluid vc_custom_1486562547340">
-                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="cb-container kd-animated fadeInUp">
-                                        <div class="cb-text-area">
-                                            <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Coach</span>
-                                            </h4>
-                                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="cb-container kd-animated fadeInUp" data-animation-delay=200>
-                                        <div class="cb-text-area">
-                                            <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Maestros</span>
-                                            </h4>
-                                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="cb-container kd-animated fadeInUp" data-animation-delay=400>
-                                        <div class="cb-text-area">
-                                            <h4 class="cb-heading">
-                                                <span class="cb-highlighted">Finanzas</span>
-                                            </h4>
-                                            <p>Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--END CARACTERISTICAS-->
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--CALIDAD DE SERVICIO-->
-        <section id="high-quality-services" class="section" style="background-color:#f8f8f8;">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-heading">Alta calidad de enseñanza</h2>
-                    <span class="heading-separator"></span>
-                    <p class="section-subheading">Build a positive impact on your business. Check out what we have to offer.</p>
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" style="height: 40px">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-10">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="kd-promobox prb_image_left kd-animated fadeInLeft">
-                                        <div class="prb-img">
-                                            <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo3-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
-                                        </div>
-                                        <div class="prb-content">
-                                            <h3>Estrategia</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            <div class="prb-btncontainer"> 
-                                                <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-divider solid_line divider_full_width thin_solid">
-                                        <div class="divider-line" style="border-color:#e2e2e3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-10">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="kd-promobox prb_image_right  kd-animated fadeInLeft">
-                                        <div class="prb-img">
-                                            <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photo2-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px" />
-                                        </div>
-                                        <div class="prb-content">
-                                            <h3>Planeación</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            <div class="prb-btncontainer"> 
-                                                <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="kd-divider solid_line divider_full_width thin_solid">
-                                        <div class="divider-line" style="border-color:#e2e2e3"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-10">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="kd-promobox prb_image_left  kd-animated fadeInLeft">
-                                        <div class="prb-img">
-                                            <img width="400" height="267" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox.jpg" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox.jpg 400w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/photobox-300x200.jpg 300w" sizes="(max-width: 400px) 100vw, 400px"/>
-                                        </div>
-                                        <div class="prb-content">
-                                            <h3>Desarrollo</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco, consectetur adipisicing elit, sed do eiusmod.</p>
-                                            <div class="prb-btncontainer"> 
-                                                <a href="#"  title="" class="prb-button tt_secondary_button tt_button">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-1">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--VIDEOS CALIFICADOS-->
-        <section id="latest-works" class="section parallax  with-overlay" style="background-color:#1f1f1f; padding-bottom:75px;">
-            <div class="parallax-overlay" style="background-image:url(http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/projects-parallax.jpg);">
-            </div>
-            <div class="container fullwidth">
-                <div class="row">
-                    <h2 class="section-heading">Vídeos Destacados</h2> 
-                    <span class="heading-separator"></span>
-                    <!--<p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>-->
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid container vc_custom_1486305580995">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="photobox-carousel kd-pbc-598a5c5104868 pbc-parent">
-                                        <div class="pbc-content">
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso1.jpg';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Pequeños Líderes</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso2.png';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Certificación Marketing</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso3.png';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Ahorrar dinero para invertir</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <script type="text/javascript">jQuery(document).ready(function($){
-                                        if ($(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").length) {
-                                          $(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").owlCarousel({
-                                            itemsDesktop: [1199,4],
-                                              itemsTablet: [768,2],
-                                              itemsMobile: [479,1],
-                                              navigation: false,
-                                              pagination: true,autoPlay: false,stopOnHover: false,items: 3,
-                                            addClassActive: true,
-                                          });
-                                        }
-          				});
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            
-            
-            <div class="container fullwidth">
-                <div class="row">
-                    <h2 class="section-heading">Cursos Online</h2> 
-                    <span class="heading-separator"></span>
-                    <!--<p class="section-subheading">There are endless possibilities in building your own business. It all starts with an idea.</p>-->
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid container vc_custom_1486305580995">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="photobox-carousel kd-pbc-598a5c5104868 pbc-parent">
-                                        <div class="pbc-content">
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso4.png';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Como usar tus miedos</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso5.jpg';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Complemento de Ventas</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="kd-photobox no-effect kd-animated fadeInUp">
-                                                <div class="photobox-img">
-                                                    <img width="400" height="267" src="<?php echo site_url().'static/page_front/images/cursos/curso6.jpg';?>" class="attachment-full" alt="curso"/>
-                                                </div>
-                                                <div class="phb-content text-center">
-                                                    <h4>Hablar en Público</h4>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                                    <div class="phb-btncontainer"> 
-                                                        <a href="#"  title="" class="phb-button">Ver</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <script type="text/javascript">jQuery(document).ready(function($){
-                                        if ($(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").length) {
-                                          $(".photobox-carousel.kd-pbc-598a5c5104868 .pbc-content").owlCarousel({
-                                            itemsDesktop: [1199,4],
-                                              itemsTablet: [768,2],
-                                              itemsMobile: [479,1],
-                                              navigation: false,
-                                              pagination: true,autoPlay: false,stopOnHover: false,items: 3,
-                                            addClassActive: true,
-                                          });
-                                        }
-          				});
-                                    </script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-        <!--END VIDEO SELECTOS-->
-        <section id="the-best-team-available" class="section" style="padding-bottom:0px;">
-            <div class="container fullwidth">
-                <div class="row">
-                    <h2 class="section-heading">The Best Team Available</h2> 
-                        <span class="heading-separator"></span>
-                        <p class="section-subheading">Get to know the people behind Intact. Our creative and technical team.</p>
-                </div><div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid container">
-                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="team-member kd-animated fadeInUp">
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img width="413" height="460" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-1.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-1.png 413w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-1-269x300.png 269w" sizes="(max-width: 413px) 100vw, 413px"/>
-                                                                <div class="team-content-hover">
-                                                                    <h5 >Raymond Turner</h5>
-                                                                    <span class="team-subtitle">Senior Manager</span>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                                                    <div class="team-socials">
-                                                                        <a href="#"  title="">
-                                                                            <span class="fa fa-facebook"></span>
-                                                                        </a>
-                                                                        <a href="#" title="">
-                                                                            <span class="fa fa-twitter"></span>
-                                                                        </a>
-                                                                        <a href="#"  title="">
-                                                                            <span class="fa fa-linkedin"></span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="team-member kd-animated fadeInUp" data-animation-delay=200>
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img width="413" height="460" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-2.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-2.png 413w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-2-269x300.png 269w" sizes="(max-width: 413px) 100vw, 413px"/>
-                                                                <div class="team-content-hover">
-                                                                    <h5>Bruce Sutton</h5>
-                                                                    <span class="team-subtitle">Web Developer</span>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                                                    <div class="team-socials">
-                                                                        <a href="#" title="">
-                                                                            <span class="fa fa-facebook"></span>
-                                                                        </a>
-                                                                        <a href="#" title="">
-                                                                                <span class="fa fa-twitter"></span>
-                                                                        </a>
-                                                                        <a href="#" title="">
-                                                                            <span class="fa fa-google-plus" ></span>
-                                                                        </a>
-                                                                        <a href="#"  title="">
-                                                                            <span class="fa fa-linkedin"></span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="team-member kd-animated fadeInUp" data-animation-delay=400>
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img width="413" height="460" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-3.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-3.png 413w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/team-section-3-269x300.png 269w" sizes="(max-width: 413px) 100vw, 413px"/>
-                                                                <div class="team-content-hover">
-                                                                    <h5>Jena Lambert</h5>
-                                                                    <span class="team-subtitle">Marketing Manager</span>
-                                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                                                    <div class="team-socials">
-                                                                        <a href="#"  title="">
-                                                                            <span class="fa fa-facebook" ></span>
-                                                                        </a>
-                                                                        <a href="#"  title="">
-                                                                            <span class="fa fa-twitter" ></span>
-                                                                        </a><a href="#"  title="">
-                                                                            <span class="fa fa-google-plus"></span>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="finished-projects" class="section" style="background-color:#f8f8f8; padding-bottom:110px;">
-            <div class="container">
-                    <div class="row">
-                
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="text-left wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" style="height:20px">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                    <h2 style="line-height: 1.2;text-align: left" class="vc_custom_heading" >Más de 15, 000 personas alrededor del mundo</h2>
-                                    <div class="vc_empty_space" style="height: 15px">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                    <p style="font-size: 16px;text-align: left" class="vc_custom_heading">Surrounded by smart, passionate people and with the best tools and approaches at your disposal, you’ll take giant leaps toward creating a business.</p>
-                                    <div class="vc_empty_space" style="height: 30px">
-                                            <span class="vc_empty_space_inner"></span>
-                                    </div> 
-                                    <a href="#" target="_self" title="" class="tt_button pull-left kd-animated zoomIn" data-animation-delay=200>
-                                        <span class=" iconita"></span>
-                                        <span class="prim_text">Empieza Ahora</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-8">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="wpb_single_image wpb_content_element vc_align_right">
-                                        <figure class="wpb_wrapper vc_figure">
-                                            <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                <img width="700" height="349" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/map.png" class="vc_single_image-img attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/map.png 700w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/map-300x150.png 300w" sizes="(max-width: 700px) 100vw, 700px"/>
-                                            </div>
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="got-questions-weve-got-answers" class="section" style="padding-bottom:110px;">
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-heading">Got Questions? We’ve Got Answers!</h2>
-                    <span class="heading-separator"></span>
-                    <p class="section-subheading">Below is a list of frequently asked questions to help you understand how this works.</p>
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="vc_empty_space" style="height: 40px">
-                                        <span class="vc_empty_space_inner"></span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-8">
-                            <div class="vc_column-inner vc_custom_1486466116181">
-                                <div class="wpb_wrapper">
-                                    <div id="1486465455111-0cc2408f-96b7" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                                        <div class="vc_toggle_title">
-                                            <h4>1. When can we get started?</h4>
-                                            <i class="vc_toggle_icon"></i>
-                                        </div>
-                                        <div class="vc_toggle_content">
-                                            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                        </div>
-                                    </div>
-                                    <div id="1486465453596-eadb9024-1eec" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                                        <div class="vc_toggle_title">
-                                            <h4>2. How do I go about conducting market research?</h4>
-                                            <i class="vc_toggle_icon"></i>
-                                        </div>
-                                        <div class="vc_toggle_content">
-                                            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                        </div>
-                                    </div>
-                                    <div id="1486465455758-f524ec86-fb98" class="vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md">
-                                        <div class="vc_toggle_title">
-                                            <h4>3. What do I need in order to start selling?</h4>
-                                            <i class="vc_toggle_icon"></i>
-                                        </div>
-                                        <div class="vc_toggle_content">
-                                            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                        </div>
-                                    </div>
-                                    <div id="1486465453143-15df7484-74ad" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                                        <div class="vc_toggle_title">
-                                            <h4>4. How much does it cost?</h4>
-                                            <i class="vc_toggle_icon"></i>
-                                        </div>
-                                        <div class="vc_toggle_content">
-                                            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                        </div>
-                                    </div>
-                                    <div id="1486465452619-85b1e9fd-d3e7" class="vc_toggle vc_toggle_default vc_toggle_color_default  vc_toggle_size_md">
-                                        <div class="vc_toggle_title">
-                                            <h4>5. What other help is available?</h4>
-                                            <i class="vc_toggle_icon"></i>
-                                        </div>
-                                        <div class="vc_toggle_content">
-                                            <p>Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <h3 style="font-size: 22px;text-align: left" class="vc_custom_heading">Questions?</h3>
-                                    <div class="wpb_text_column wpb_content_element">
-                                        <div class="wpb_wrapper"><p>Blandit justo vestibulum tincidunt, ipsum id non, volutpat neque pede eget donec.</p>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1486465159630">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner vc_custom_1486465270591">
-                                                <div class="wpb_wrapper">
-                                                    <a href="#" target="_self" class="tt_button tt_secondary_button pull-left kd-animated zoomIn" data-animation-delay=200>
-                                                        <span class="iconita"></span>
-                                                        <span class="prim_text">Contact us</span>
-                                                    </a>
-                                                    <div class="vc_empty_space" style="height:30px">
-                                                        <span class="vc_empty_space_inner"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <h3 style="font-size: 22px;text-align: left" class="vc_custom_heading">About Us</h3>
-                                    <div class="wpb_text_column wpb_content_element">
-                                        <div class="wpb_wrapper">
-                                            <p>Etiam nisl cras, arcu dui, wisi aenean non sit quisque nulla, eget aut molestie. Rhoncus sociis, nulla luctus diam montes cubilia.</p>
-                                        </div>
-                                    </div>
-                                    <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1486465166412">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner vc_custom_1486465283494">
-                                                <div class="wpb_wrapper">
-                                                    <a style="width:px" href="#" target="_self" class="tt_button tt_secondary_button  pull-left kd-animated zoomIn" data-animation-delay=200>
-                                                        <span class=" iconita"></span>
-                                                        <span class="prim_text">Learn More</span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="what-they-say" class="section parallax  with-overlay" style="background-color:#1f1f1f; padding-bottom:60px;">
-            <div class="parallax-overlay" style="background-image:url(http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/parallax.jpg);"></div>
-            <div class="container">
-                <div class="row">
-                    <h2 class="section-heading">What They Say</h2> 
-                    <span class="heading-separator"></span>
-                    <p class="section-subheading">Don’t take our word for it, take theirs.</p>
-                </div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <div class="testimonial-cards tcards-parent kd-tcards-598a5c5111d03">
-                                        <div class="tcards-content">
-                                            <div class="key-tcards kd-animated fadeInUp">
-                                                <div class="tcards_message author-bottom">
-                                                    <h5 class="tcards-title">Great design</h5>
-                                                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
-                                                </div>
-                                                <div class="tcards_header">
-                                                    <div class="tcards-image">
-                                                        <img width="190" height="190" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/raymond-turner-testimonial.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/raymond-turner-testimonial.png 190w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/raymond-turner-testimonial-150x150.png 150w" sizes="(max-width: 190px) 100vw, 190px"/>
-                                                    </div>
-                                                    <h4 class="tcards-name">Raymond Turner</h4>
-                                                    <p class="tcards-job">CEO - Keysoft</p>
-                                                </div>
-                                            </div>
-                                            <div class="key-tcards kd-animated fadeInUp " data-animation-delay=200>
-                                                <div class="tcards_message author-bottom">
-                                                    <h5 class="tcards-title">Awesome support</h5>
-                                                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
-                                                </div>
-                                                <div class="tcards_header">
-                                                    <div class="tcards-image">
-                                                        <img width="190" height="190" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vanessa-gibbs-testimonial.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vanessa-gibbs-testimonial.png 190w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vanessa-gibbs-testimonial-150x150.png 150w" sizes="(max-width: 190px) 100vw, 190px"/>
-                                                    </div>
-                                                    <h4 class="tcards-name">Vanessa Gibbs</h4>
-                                                    <p class="tcards-job">Site Manager - Agata Inc.</p>
-                                                </div>
-                                            </div>
-                                            <div class="key-tcards kd-animated fadeInUp" data-animation-delay=400>
-                                                <div class="tcards_message author-bottom">
-                                                    <h5 class="tcards-title">Efficient collaborating</h5>
-                                                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
-                                                </div>
-                                                <div class="tcards_header">
-                                                    <div class="tcards-image">
-                                                        <img width="190" height="190" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/bruce-sutton-testimonial.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/bruce-sutton-testimonial.png 190w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/bruce-sutton-testimonial-150x150.png 150w" sizes="(max-width: 190px) 100vw, 190px"/>
-                                                    </div>
-                                                    <h4 class="tcards-name">Bruce Sutton</h4>
-                                                    <p class="tcards-job">CTO - Appsperia</p>
-                                                </div>
-                                            </div>
-                                            <div class="key-tcards">
-                                                <div class="tcards_message author-bottom">
-                                                    <h5 class="tcards-title">Inovative design</h5>
-                                                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
-                                                </div>
-                                                <div class="tcards_header">
-                                                    <div class="tcards-image">
-                                                        <img width="190" height="190" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/pete-hugh-testimonial.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/pete-hugh-testimonial.png 190w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/pete-hugh-testimonial-150x150.png 150w" sizes="(max-width: 190px) 100vw, 190px"/>
-                                                    </div>
-                                                    <h4 class="tcards-name">Pete Hugh</h4>
-                                                    <p class="tcards-job">Design Director - Incubator</p>
-                                                </div>
-                                            </div>
-                                            <div class="key-tcards">
-                                                <div class="tcards_message author-bottom">
-                                                    <h5 class="tcards-title">Professional team</h5>
-                                                    <p>Dignissim per dis dignissim mi nibh a parturient habitasse suspendisse ut a feugiat morbi neque tortor.Tellus volutpat scelerisque tempor.</p>
-                                                </div>
-                                                <div class="tcards_header">
-                                                    <div class="tcards-image">
-                                                        <img width="190" height="190" src="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vicent-adams-testimonial.png" class="attachment-full" alt="" srcset="http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vicent-adams-testimonial.png 190w, http://keydesign-themes.com/intact/business/wp-content/uploads/sites/2/2017/02/vicent-adams-testimonial-150x150.png 150w" sizes="(max-width: 190px) 100vw, 190px"/>
-                                                    </div>
-                                                    <h4 class="tcards-name">Vincent Adams</h4>
-                                                    <p class="tcards-job">CFO - Keydesign</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <script type="text/javascript">jQuery(document).ready(function($){
-                    if ($(".testimonial-cards.kd-tcards-598a5c5111d03 .tcards-content").length) {
-                      $(".testimonial-cards.kd-tcards-598a5c5111d03 .tcards-content").owlCarousel({
-                  	  itemsDesktop: [1199,3],
-                  	  itemsTablet: [768,2],
-                  	  itemsMobile: [479,1],
-                        navigation: false,
-                        pagination: true,autoPlay: false,stopOnHover: false,
-                        addClassActive: true,
-                        items: 3,
-                      });
-                    }
-          				});</script>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="get-help-with-your-design-project" class="section" style="padding-top:30px; padding-bottom:30px;">
-            <div class="container fullwidth">
-                <div class="row"></div>
-                <div class="row">
-                    <div class="vc_row wpb_row vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="kd-calltoaction no_icon">
-                                        <div class="container">
-                                            <div class="cta-text">
-                                                <h3>Get answers and advice from people you want it from. Intact designers and developers will help you create awesome websites for your startup.</h3>
-                                            </div>
-                                            <div class="cta-btncontainer"> 
-                                                <a href="#"  title="" class="tt_button tt_primary_button kd-animated zoomIn" data-animation-delay="200">Hire us!</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<html lang="en">
+  <head>
+		<title>BISAR</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/bootstrap.css';?>">
+		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/font-awesome.css';?>">
+		<link rel='stylesheet' id='camera-css'  href='<?php echo site_url().'static/assets/css/camera.css';?>' type='text/css' media='all'>
+
+		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/slicknav.css';?>">
+		<link rel="stylesheet" href="<?php echo site_url().'static/assets/css/prettyPhoto.css';?>" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/style.css';?>">
+		
+		
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery-1.8.3.min.js';?>"></script>
+
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.mobile.customized.min.js';?>"></script>
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.easing.1.3.js';?>"></script> 
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/camera.min.js';?>"></script>
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/myscript.js';?>"></script>
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/sorting.js';?>" ></script>
+		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.isotope.js';?>"></script>
+		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
+		
+
+		<script>
+			jQuery(function(){
+					jQuery('#camera_wrap_1').camera({
+					transPeriod: 500,
+					time: 3000,
+					height: '490px',
+					thumbnails: false,
+					pagination: true,
+					playPause: false,
+					loader: false,
+					navigation: false,
+					hover: false
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
     
+    <!--home start-->
+    
+    <div id="home">
+    	<div class="headerLine">
+	<div id="menuF" class="default">
+		<div class="container">
+			<div class="row">
+				<div class="logo col-md-4">
+					<div>
+						<a href="#">
+							<img src="<?php echo site_url().'static/assets/images/logo.png';?>">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<div class="navmenu"style="text-align: center;">
+						<ul id="menu">
+							<li class="active" ><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#project">Projects</a></li>
+							<li><a href="#news">News</a></li>
+							<li class="last"><a href="#contact">Contact</a></li>
+							<!--li><a href="#features">Features</a></li-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row wrap">
+				<div class="col-md-12 gallery"> 
+						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
+							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We listen.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We discuss.</h2>
+								</div>
+							</div>
+							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
+								<div class="img-responsive camera_caption fadeFromBottom">
+									<h2>We develop.</h2>
+								</div>
+							</div>
+						</div><!-- #camera_wrap_1 -->
+				</div>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 project">
+					<h3 id="counter">0</h3>
+					<h4>Awesome Projects</h4>
+					<p>Dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et lorem a laoreet phasellus ut nisi id leo molestie. </p>
+				</div>
+				<div class="col-md-4 project">
+					<h3 id="counter1">0</h3>
+					<h4>Happy Customers</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et. laoreet phasellus ut nisi id leo.  </p>
+				</div>
+				<div class="col-md-4 project">
+					<h3 id="counter2" style="margin-left: 20px;">0</h3>
+					<h4 style="margin-left: 20px;">Professional Awards</h4>
+					<p>Consectetur adipiscing elit quisque tempus eget diam et laoreet phasellus ut nisi id leo molestie adipiscing vitae a vel. </p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 cBusiness">
+					<h3>The Best Way to Create Business Site &ndash; Attractive One Page</h3>
+					<h4>Discover elegant solution for your online business fast, reliable, affordable.</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 centPic">
+					<img class="img-responsive"  src="<?php echo site_url().'static/assets/images/bizPic.png';?>"/>
+				</div>
+			</div>
+		</div>   
     </div>
-    <!--FOOTER-->
-   <?php $this->load->view("footer");?>
-    <!--END FOOTER-->
-    <div class="back-to-top"> 
-            <i class="fa fa-angle-up"></i>
+    
+    <!--about start-->    
+    
+    <div id="about">
+    	<div class="line2">
+			<div class="container">
+				<div class="row Fresh">
+					<div class="col-md-4 Des">
+						<i class="fa fa-heart"></i>
+						<h4>Fresh & Clean Design</h4>
+						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+					</div>
+					<div class="col-md-4 Ver">
+						<i class="fa fa-cog"></i>
+						<h4>Very Flexible</h4>
+						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+					</div>
+					<div class="col-md-4 Fully">
+						<i class="fa fa-tablet"></i>
+						<h4>Fully Responsive</h4>
+						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 wwa">
+					<span name="about" ></span>
+					<h3>Who We Are? Meet Our Team!</h3>
+					<h4>We listen, we discuss, we advise and develop. We love to learn and use the latest technologies.</h4>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row team">
+				<div class="col-md-4 b1">
+						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT1.png';?>">
+						<h4>Tom Simpson</h4>
+						<h5>CEO</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+						</ul>
+				</div>
+			
+			
+				<div class="col-md-4">
+						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT2.png';?>">
+						<h4>John Doe</h4>
+						<h5>Project Manager</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+						</ul>
+				</div>
+		
+			
+				<div class="col-md-4 b3">
+						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT3.png';?>">
+						<h4>Anna White</h4>
+						<h5>Developer</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+						</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 hr1">
+					<hr/>
+				</div>
+			</div>
+		</div>		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 bar">
+					<div class="progB chart" data-percent="64"  data-animate="3500">
+						<div class="chart chart-content">
+							<div class="percentage" data-percent="64">
+							  <span class="percent">64</span>
+							</div>
+						</div>
+					</div>
+					<div class="textP">
+						<h3>WordPress</h3>
+						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+					</div>
+				</div>
+				<div class="col-md-3 bar">
+					<div class="progB chart" data-percent="22"  data-animate="3500">
+						<div class="chart chart-content">
+							<div class="percentage" data-percent="22">
+							  <span class="percent">22</span>
+							</div>
+						</div>
+					</div>
+					<div class="textP">
+						<h3>HTML5</h3>
+						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+					</div>
+				</div>
+				<div class="col-md-3 bar ">
+					<div class="progB chart" data-percent="84"  data-animate="3500">
+						<div class="chart chart-content">
+							<div class="percentage" data-percent="22">
+							  <span class="percent">84</span>
+							</div>
+						</div>
+					</div>
+					<div class="textP">
+						<h3>CSS3</h3>
+						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+					</div>
+				</div>
+				<div class="col-md-3 bar ">
+					<div class="progB chart" data-percent="45"  data-animate="3500">
+						<div class="chart chart-content">
+							<div class="percentage" data-percent="45">
+							  <span class="percent">45</span>
+							</div>
+						</div>
+					</div>
+					<div class="textP">
+						<h3>Woocommerce</h3>
+						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		
+		<div class="container">
+			<div class="row aboutUs">
+				<div class="col-md-12 ">
+					<h3>What Our Customers Say About Us?</h3>
+				</div>
+			</div>
+		</div>
+		
+		<div style="position: relative;">
+		
+			<div class="container">
+				<div class="row about">
+					<div class="col-md-6">
+						<div class="about1">
+						<img class="pic1Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP1.png';?>">
+							<h3>Anna Smith, Company Inc.</h3>
+							<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis. aliquam, nulla nisi lobortis elit ac.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about2">
+						<img class="pic2Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP2.png';?>">
+							<h3>John Doe, Company Inc.</h3>
+							<p>Consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo, adipiscing auctor, ut auctor feugiat fermentum nec quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, ac luctus.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="horL"></div>
+		
+			<div class="container">
+				<div class="row about">
+					<div class="col-md-6">
+						<div class="about1">
+						<img class="pic1Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP3.png';?>">
+							<h3>Tom Sawyer, Company Inc.</h3>
+							<p>A auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, acnterdum ante feugiat vitae.</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="about2">
+						<img class="pic2Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP4.png';?>">
+							<h3>Sarah White, Company Inc.</h3>
+							<p>Ornare nibh a auctor, mauris scelerisque eu proin nec urna nec a quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra felis et venenatis aliquam, nulla nisi lobortis elit, ac eleifend nisl ante nec lorem. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
     </div>
-    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-            <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-            <div class="pswp__container">
-                    <div class="pswp__item">
-                        <div class="pswp__item"></div>s
-                        <div class="pswp__item"></div>
-                            <div class="pswp__ui pswp__ui--hidden">
-                                <div class="pswp__top-bar">
-                                    <div class="pswp__counter"></div> 
-                                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button> 
-                                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> 
-                                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-                                    <div class="pswp__preloader">
-                                        <div class="pswp__preloader__icn">
-                                            <div class="pswp__preloader__cut">
-                                                <div class="pswp__preloader__donut"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> 
-                                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button> 
-                                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button>
-                                <div class="pswp__caption">
-                                    <div class="pswp__caption__center"></div>
-                                </div>
-                            </div>
-                    </div>
-            </div> 
-            <script type="text/javascript">function revslider_showDoubleJqueryError(sliderID) {
-					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
-					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
-					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
-					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
-					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
-						jQuery(sliderID).show().html(errorMessage);
+    <!--project start-->    
+    <div id="project">    	
+		<div class="line3">
+			<div class="container">
+				<div id="project1" ></div>
+				<div class="row Ama">
+					<div class="col-md-12">
+					<span name="projects" id="projectss"></span>
+					<h3>Our Amazing Works</h3>
+					<p>Right here we've got something you gonna love</p>
+					</div>
+				</div>
+			</div>
+		</div>          
+    
+    
+       <div class="container">
+		
+		<div class="row">
+			<!-- filter_block -->
+				<div id="options" class="col-md-12" style="text-align: center;">	
+					<ul id="filter" class="option-set" data-option-key="filter">
+						<li><a class="selected" href="#filter" data-option-value="*" class="current">All Works</a></li>
+						<li><a href="#filter" data-option-value=".polygraphy">Polygraphy</a></li>
+						<li><a href="#filter" data-option-value=".branding">Branding</a></li>
+						<li><a href="#filter" data-option-value=".web">Web UI</a></li>
+						<li><a href="#filter" data-option-value=".text_styles">Text Styles</a></li>
+					</ul>
+				</div><!-- //filter_block -->
+		
+		
+		
+			<div class="portfolio_block columns3   pretty" data-animated="fadeIn">	
+					<div class="element col-sm-4   gall branding">
+						<a class="plS" href="<?php echo site_url().'static/assets/images/prettyPhotoImages/pic1.jpg';?>" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic1.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Recycled Paper - Business Card Mock Up</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>215</li>
+								<li><a class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall branding">
+						<a class="plS" href="<?php echo site_url().'static/assets/images/prettyPhotoImages/pic2.jpg';?>" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic2.jpg';?>" alt="pic2 Gallery"/>
+						</a>
+						<div class="view project_descr center">
+							<h3><a href="#">Environment Logos Set</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>369</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>86</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall web">
+						<a class="plS" href="images/prettyPhotoImages/pic3.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic3.jpg';?>" alt="pic3 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Beag Simple WEB UI</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>400</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>124</a></li>
+							</ul>
+						</div>
+					</div>
+		
+		
+					
+					<div class="element col-sm-4  gall  text_styles">
+						<a class="plS" href="images/prettyPhotoImages/pic4.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic4.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Pop Candy Text Effect</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>480</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>95</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall  web">
+						<a class="plS" href="images/prettyPhotoImages/pic5.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic5.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr center">
+							<h3><a href="#">User Interface Elements</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>215</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="element col-sm-4  gall  polygraphy">
+						<a class="plS" href="images/prettyPhotoImages/pic6.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic6.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Stationery Branding Mock Up</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>375</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>102</a></li>
+							</ul>
+						</div>
+					</div>		
+					<div class="element col-sm-4   gall branding">
+						<a class="plS" href="images/prettyPhotoImages/pic7.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic7.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Darko - Business Card Mock Up</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>440</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>35</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4  gall text_styles">
+						<a class="plS" href="images/prettyPhotoImages/pic8.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic8.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Foil Mini Badges</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>512</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>36</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="element col-sm-4  gall polygraphy">
+						<a class="plS" href="images/prettyPhotoImages/pic9.jpg" rel="prettyPhoto[gallery2]">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic9.jpg';?>" alt="pic1 Gallery"/>
+						</a>
+						<div class="view project_descr ">
+							<h3><a href="#">Woody Poster Text Effect</a></h3>
+							<ul>
+								<li><i class="fa fa-eye"></i>693</li>
+								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>204</a></li>
+							</ul>
+						</div>
+					</div>			
+			</div>
+			
+			
+				
+					<div class="col-md-12 cBtn  lb" style="text-align: center;">
+						<ul class="load_more_cont ">
+							<li class="dowbload btn_load_more">
+								<a href="javascript:void(0);" >
+									<i class="fa fa-arrow-down"></i>Load More Projects
+								</a>
+							</li>
+							<li class="buy">
+								<a href="#">
+									<i class="fa fa-shopping-cart"></i>Buy on Themeforest
+								</a>
+							</li>
+						</ul>
+					</div>
+			
+		</div>
+			
+			<script type="text/javascript">
+				jQuery(window).load(function(){
+					items_set = [
+					
+						{category : 'branding', lika_count : '77', view_count : '234', src : '<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic9.jpg';?>', title : 'Foil Mini Badges', content : '' },
+						
+						{category : 'polygraphy', lika_count : '45', view_count : '100', src : '<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic7.jpg';?>', title : 'Darko – Business Card Mock Up', content : '' },
+						
+						{category : 'text_styles', lika_count : '22', view_count : '140', src : '<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic8.jpg';?>', title : 'Woody Poster Text Effect', content : '' }
+						
+
+					];
+					jQuery('.portfolio_block').portfolio_addon({
+						type : 1, // 2-4 columns simple portfolio
+						load_count : 3,
+						
+						items : items_set
+					});
+					$('#container').isotope({
+					  animationOptions: {
+						 duration: 900,
+						 queue: false
+					   }
+					});
+				});
+			</script>
+		</div>
+    </div>    
+    
+    <!--news start-->
+    
+    <div id="news">
+    	<div class="line4">		
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>What&rsquo;s New?</h3>
+					<p>Get the latest news from our blog</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+				<div class="row news">
+					<div class="col-md-6  text-left">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news1.jpg';?>"/>
+					<h3><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+					<div class="col-md-6 text-right">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news2.jpg';?>"/>
+					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row news2 news">
+					<div class="col-md-6 text-left">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news3.jpg';?>"/>
+					<h3><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+					<div class="col-md-6 text-right">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news4.jpg';?>"/>
+					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row news2 news">
+					<div class="col-md-6 text-left">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news5.jpg';?>"/>
+					<h3 ><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+					<div class="col-md-6 text-right">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news6.jpg';?>"/>
+					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<div class="container hideObj2" style="display:none;">
+				<div class="row news2 news">
+					<div class="col-md-6 text-right">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news6.jpg';?>"/>
+					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+					<div class="col-md-6 text-left">
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news5.jpg';?>"/>
+					<h3 ><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<ul>
+						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
+						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<hr class="hrNews">
+					</div>
+				</div>
+			</div>
+			<div class="container">
+			<div class="row cBtn">
+				<div class="col-md-12" style="text-align: center; margin-bottom: -90px; z-index: 10;">
+					<ul class="mNews">
+						<li class="dowbload bhide2"><a href="#"><i class="fa fa-arrow-down"></i>Load More news</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+    
+    
+    <!--contact start-->
+    
+    <div id="contact">
+    	<div class="line5">					
+			<div class="container">
+				<div class="row Ama">
+					<div class="col-md-12">
+					<h3>Got a Question? We&rsquo;re Here to Help!</h3>
+					<p>Get in touch with us</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-xs-12 forma">
+					<form>
+						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Nombre *'/>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
+						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Asunto'/>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Mesage *'></textarea>
+						<div class="cBtn col-xs-12">
+							<ul>
+								<li class="send"><a href="#"><i class="fa fa-share"></i>Enviar Mensaje</a></li>
+							</ul>
+						</div>
+					</form>
+				</div>
+				<div class="col-md-3 col-xs-12 cont">
+					<ul>
+						<li><i class="fa fa-home"></i>5512 Lorem Ipsum Vestibulum 666/13</li>
+						<li><i class="fa fa-phone"></i>+1 800 789 50 12, +1 800 450 6935</li>
+						<li>
+                                                    <a href="#"><i class="fa fa-envelope"></i>mail@compname.com</a>
+                                                </li>
+						<li><i class="fa fa-skype"></i>compname</li>
+    						<li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</li></a>
+						<li><a href="#"><i class="fa fa-youtube-play"></i>YouTube</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="line6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48386.401887313725!2d-73.9407136!3d40.7147117!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1402409149092" width="100%" height="750" frameborder="0" style="border:0"></iframe>			
+		</div>
+		<div class="container">
+			<div class="row ftext">
+				<div class="col-md-12">
+				<a id="features"></a>
+				<h3>We Care About Our Clients and Can Make Their Life Easier!</h3>
+				<p>The main peculiarity of template is the striking presentation when visitors just need to use the scrolling option to find all necessary information about your web project. </p>
+				</div>
+				<div class="cBtn">
+					<ul style="margin-top: 23px; margin-bottom: 0px; padding-left: 26px;">
+						<li class="dowbload"><a href="#"><i class="fa fa-star"></i>View All Features</a></li>
+						<li class="buy"><a href="#"><i class="fa fa-download"></i>Buy This Template</a></li>
+					</ul>
+			</div>
+			</div>
+		</div>
+		<div class="line7">
+			<div class="container">
+				<div class="row footer">
+					<div class="col-md-12">
+						<h3>¡Suscríbete a nuestro boletín!</h3>
+						<p>Suscríbete a nuestro boletín para recibir notificaciones sobre noticias recientes, últimas promociones y material gratuito de BISAR. Manténgase siempre al día!</p>
+						<div class="fr">
+						<div style="display: inline-block;">
+							<input class="col-md-6 fEmail" name='Email' placeholder='Tu Email'/>
+							<a href="#" class="subS">Subscribe!</a>
+						</div>
+						</div>
+					</div>
+					<div class="soc col-md-12">
+						<ul>
+							<li class="soc1"><a href="#"></a></li>
+							<li class="soc2"><a href="#"></a></li>
+							<li class="soc3"><a href="#"></a></li>
+							<li class="soc4"><a href="#"></a></li>
+							<li class="soc5"><a href="#"></a></li>
+							<li class="soc6"><a href="#"></a></li>
+							<li class="soc7"><a href="#"></a></li>
+							<li class="soc8"><a href="#"></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="lineBlack">
+			<div class="container">
+				<div class="row downLine">
+					<div class="col-md-6 text-left copy">
+						<p>Copyright &copy; 2017 BISAR.</p>
+					</div>
+					<div class="col-md-6 text-right dm">
+						<ul id="downMenu">
+							<li class="active"><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#project1">Projects</a></li>
+							<li><a href="#news">News</a></li>
+							<li class="last"><a href="#contact">Contact</a></li>
+							<!--li><a href="#features">Features</a></li-->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>		
+		
+		
+	<script src="<?php echo site_url().'static/assets/js/jquery.prettyPhoto.js';?>" type="text/javascript" charset="utf-8"></script>
+	<script src="<?php echo site_url().'static/assets/js/bootstrap.min.js';?>"></script>
+	<script src="<?php echo site_url().'static/assets/js/jquery.slicknav.js';?>"></script>
+	<script>
+			$(document).ready(function(){
+			$(".bhide").click(function(){
+				$(".hideObj").slideDown();
+				$(this).hide(); //.attr()
+				return false;
+			});
+			$(".bhide2").click(function(){
+				$(".container.hideObj2").slideDown();
+				$(this).hide(); // .attr()
+				return false;
+			});
+				
+			$('.heart').mouseover(function(){
+					$(this).find('i').removeClass('fa-heart-o').addClass('fa-heart');
+				}).mouseout(function(){
+					$(this).find('i').removeClass('fa-heart').addClass('fa-heart-o');
+				});
+				
+				function sdf_FTS(_number,_decimal,_separator)
+				{
+				var decimal=(typeof(_decimal)!='undefined')?_decimal:2;
+				var separator=(typeof(_separator)!='undefined')?_separator:'';
+				var r=parseFloat(_number)
+				var exp10=Math.pow(10,decimal);
+				r=Math.round(r*exp10)/exp10;
+				rr=Number(r).toFixed(decimal).toString().split('.');
+				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
+				r=(rr[1]?b+'.'+rr[1]:b);
+
+				return r;
+}
+				
+			setTimeout(function(){
+					$('#counter').text('0');
+					$('#counter1').text('0');
+					$('#counter2').text('0');
+					setInterval(function(){
+						
+						var curval=parseInt($('#counter').text());
+						var curval1=parseInt($('#counter1').text().replace(' ',''));
+						var curval2=parseInt($('#counter2').text());
+						if(curval<=707){
+							$('#counter').text(curval+1);
+						}
+						if(curval1<=12280){
+							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
+						}
+						if(curval2<=245){
+							$('#counter2').text(curval2+1);
+						}
+					}, 2);
+					
+				}, 500);
+			});
+	</script>
+	<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('#menu').slicknav();
+		
+	});
+	</script>
+	
+	<script type="text/javascript">
+    $(document).ready(function(){
+       
+        var $menu = $("#menuF");
+            
+        $(window).scroll(function(){
+            if ( $(this).scrollTop() > 100 && $menu.hasClass("default") ){
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("default")
+                           .addClass("fixed transbg")
+                           .fadeIn('fast');
+                });
+            } else if($(this).scrollTop() <= 100 && $menu.hasClass("fixed")) {
+                $menu.fadeOut('fast',function(){
+                    $(this).removeClass("fixed transbg")
+                           .addClass("default")
+                           .fadeIn('fast');
+                });
+            }
+        });
+	});
+    //jQuery
+	</script>
+	<script>
+		/*menu*/
+		function calculateScroll() {
+			var contentTop      =   [];
+			var contentBottom   =   [];
+			var winTop      =   $(window).scrollTop();
+			var rangeTop    =   200;
+			var rangeBottom =   500;
+			$('.navmenu').find('a').each(function(){
+				contentTop.push( $( $(this).attr('href') ).offset().top );
+				contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
+			})
+			$.each( contentTop, function(i){
+				if ( winTop > contentTop[i] - rangeTop && winTop < contentBottom[i] - rangeBottom ){
+					$('.navmenu li')
+					.removeClass('active')
+					.eq(i).addClass('active');				
 				}
-            </script> 
-            <script type='text/javascript'>var wpcf7 = {"apiSettings":{"root":"http:\/\/keydesign-themes.com\/intact\/business\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};</script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8.1'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/bootstrap.min.js?ver=4.8.1'>
-            </script> <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/masonry.min.js?ver=3.3.2'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/SmoothScroll.js?ver=4.8.1'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/themes/intact/core/assets/js/scripts.js?ver=4.8.1'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-includes/js/wp-embed.min.js?ver=4.8.1'></script> 
-            <script type='text/javascript' src='http://keydesign-themes.com/intact/business/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.1.1'>
-            </script> <div id="customizer" class="hidden-xs">
-                <div class="options"> 
-                    <a class="custom-tooltip switcher fa nc-icon-outline-laptop">
-                        <span class="intact-tooltip">Demo Switcher <span class="trialngle-tooltip"></span></span></a> 
-                        <a class="custom-tooltip" href="http://keydesign-themes.com/intact/documentation/" target="_blank">
-                            <i class="fa nc-icon-outline-print"></i>
-                            <span class="intact-tooltip">Documentation<span class="trialngle-tooltip"></span></span>
-                        </a> 
-                    <a class="custom-tooltip" href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" target="_blank">
-                        <i class="fa nc-icon-outline-cart"></i>
-                        <span class="intact-tooltip">Purchase Theme<span class="trialngle-tooltip"></span></span>
-                    </a>
-                </div>
-                <div id="demoselect">
-                    <div class="customizer-logo">Intact</div>
-                    <p>Check our well designed demos for startups and mobile apps and install them with only one click.</p>
-                    <div class="screenshot"> 
-                        <a href="http://keydesign-themes.com/intact/creative-agency/" class="first">
-                            <span>Creative Agency</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo1.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/startup/" class="first">
-                            <span>Startup Demo</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo2.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/business/" class="first">
-                            <span>Business Demo</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo3.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/digital-product/" class="first">
-                            <span>Digital Product</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo4.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/marketing-agency/" class="first">
-                            <span>Marketing Agency</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo5.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/landing-page/" class="first">
-                            <span>Landing Page</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo6.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/conference/" class="first">
-                            <span>Conference Demo</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo7.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/shop-classic/" class="first">
-                            <span>Shop Classic</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo8.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/mobile-app/" class="first">
-                            <span>Mobile App Demo</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo9.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/corporate/" class="first">
-                            <span>Corporate Demo</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo10.jpg" alt="">
-                        </a> 
-                        <a href="http://keydesign-themes.com/intact/simple-portfolio/" class="first">
-                            <span>Simple Portfolio</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo11.jpg" alt="">
-                        </a> <a href="http://keydesign-themes.com/intact/coming-soon/" class="first">
-                            <span>Coming Soon</span>
-                            <img src="http://keydesign-themes.com/intact/images/demo12.jpg" alt="">
-                        </a>
-                    </div>
-                </div> 
-                <a href="https://themeforest.net/item/intact-premium-multipurpose-wordpress-theme/19533865?ref=key-design&license=regular&open_purchase_for_item_id=19533865&purchasable=source" class="tt_button" target="_blank">
-                    
-                </a>
-            </div>
-        </body>
-        </html>
+			})
+		};
+		
+		$(document).ready(function(){
+			calculateScroll();
+			$(window).scroll(function(event) {
+				calculateScroll();
+			});
+			$('.navmenu ul li a').click(function() {  
+				$('html, body').animate({scrollTop: $(this.hash).offset().top - 80}, 800);
+				return false;
+			});
+		});		
+	</script>	
+	<script type="text/javascript" charset="utf-8">
+
+		jQuery(document).ready(function(){
+			jQuery(".pretty a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_square',slideshow:3000, autoplay_slideshow: true, social_tools: ''});
+			
+		});
+	</script>
+	</body>
+	
+</html>
