@@ -4,9 +4,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <meta name="author" content="ibisar">
                 <meta name="description" content="Equipo con la visión de ayudar a las personas en una superación personal y económica">
-                <meta name="keywords" content="ibisar,bisar,multinivel,binario,negocio,mlm,dinero,bitcoin,millones,educacion,futuro ">
+                <meta name="keywords" content="ibisar,bisar,multinivel,binario,negocio,mlm,dinero,bitcoin,millones,educacion,futuro">
                 <link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/bootstrap.css';?>">
-<!--		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/font-awesome.css';?>">-->
                 <script src="https://use.fontawesome.com/3aa4a6fd0b.js"></script>
                 
 		<link rel='stylesheet' id='camera-css'  href='<?php echo site_url().'static/assets/css/camera.css';?>' type='text/css' media='all'>

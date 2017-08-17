@@ -75,9 +75,9 @@
 			<div class="col-lg-3 col-md-6">
 				<div class="panel minimal panel-default">
 					<div class="panel-heading clearfix"> 
-						<div class="panel-title">Advertisements</div> 
+						<div class="panel-title">Certificaciones</div> 
 						<ul class="panel-tool-options"> 
-							<li class="dropdown">
+<!--							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"><i class="icon-cog"></i></a>
 								<ul class="dropdown-menu dropdown-menu-right">
 									<li><a href="#"><i class="icon-arrows-ccw"></i> Update data</a></li>
@@ -86,14 +86,14 @@
 									<li class="divider"></li>
 									<li><a href="#"><i class="icon-cancel"></i> Clear list</a></li>
 								</ul>
-							 </li>
+							 </li>-->
 						</ul> 
 					</div> 
 					<!-- panel body --> 
 					<div class="panel-body"> 
 						<div class="stack-order">
-							<h1 class="no-margins">759</h1>
-							<small>31 News ads this month.</small>
+							<h1 class="no-margins">0</h1>
+							<small>Certificaciones hasta la fecha.</small>
 						</div>
 						<div class="bar-chart-icon"></div>
 					</div> 
@@ -104,7 +104,7 @@
 			<div class="col-lg-6">
 				<div class="panel panel-default">
 					<div class="panel-heading no-border clearfix"> 
-						<h3 class="panel-title">VISIT STATS</h3>
+						<h3 class="panel-title">Porcentaje de Crecimiento</h3>
 						<ul class="panel-tool-options"> 
 							<li class="dropdown">
 								<a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"><i class="icon-cog icon-2x"></i></a>
