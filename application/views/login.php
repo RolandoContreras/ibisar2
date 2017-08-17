@@ -46,8 +46,8 @@
 			<div class="row">
 				<div class="col-md-12 col-xs-12 forma">
 					<form>
-						<input type="text" class="col-md-6 col-xs-6 " name='name' placeholder='Usuario *'/>
-                                                <input type="password" class="col-md-6 col-xs-6 " name='Email' placeholder='Contraseña *'/>
+						<input type="text" class="col-md-6 col-xs-6" name='username' id='username' placeholder='Usuario *'/>
+                                                <input type="password" class="col-md-6 col-xs-6" name='password' id='password' placeholder='Contraseña *'/>
                                                 <br><br><br>
 						<div class="cBtn col-xs-12">
 							<ul>

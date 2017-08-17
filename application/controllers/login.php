@@ -95,6 +95,7 @@ class Login extends CI_Controller {
                 $name = $this->input->post('name');  
                 $email = $this->input->post('email');  
                 $message = $this->input->post('message');  
+                $subject = $this->input->post('subject');  
                 
                 //validate background
                 $this->form_validation->set_rules('name','name',"required|trim");
@@ -112,6 +113,7 @@ class Login extends CI_Controller {
                         'name' => $name,
                         'email' => $email,
                         'comment' => $message,
+                        'subject' => $subject,
                         'date_comment' => date("Y-m-d H:i:s"),
                         'status_value' => 0,
                     );

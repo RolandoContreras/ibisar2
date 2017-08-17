@@ -470,16 +470,27 @@
 			<div class="row">
 				<div class="col-md-9 col-xs-12 forma">
 					<form>
-						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Nombre *'/>
-						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
-						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Asunto'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Mensage *'></textarea>
+						<input type="text" class="col-md-6 col-xs-12 name" name='name' id='name' placeholder='Nombre *'/>
+						<input type="text" class="col-md-6 col-xs-12 Email" name='email' id='email' placeholder='Email *'/>
+						<input type="text" class="col-md-12 col-xs-12 Subject" name='subject' id='subject' placeholder='Asunto'/>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='message' id='message' placeholder='Mensage *'></textarea>
 						<div class="cBtn col-xs-12">
 							<ul>
-								<li class="send"><a href="#"><i class="fa fa-share"></i>Enviar Mensaje</a></li>
+								<li><a onclick="send_messages();"><i class="fa fa-share"></i>Enviar Mensaje</a></li>
 							</ul>
 						</div>
 					</form>
+                                    
+<!--                                    <form>
+						<input type="text" class="col-md-6 col-xs-6" name='username' id='username' placeholder='Usuario *'/>
+                                                <input type="password" class="col-md-6 col-xs-6" name='password' id='password' placeholder='Contraseña *'/>
+                                                <br><br><br>
+						<div class="cBtn col-xs-12">
+							<ul>
+                                                            <li class="send"><a onclick="send_login();"><i class="fa fa-share"></i><?php echo replace_vocales_voculeshtml("Iniciar Sesión");?></a></li>
+							</ul>
+						</div>
+					</form>-->
 				</div>
 				<div class="col-md-3 col-xs-12 cont">
 					<ul>
@@ -557,7 +568,9 @@
 		</div>
     </div>		
 		
-		
+        <script src="<?php echo site_url().'static/page_front/js/contact.js';?>"></script>
+        <script src="<?php echo site_url().'static/assets/spin/js/spin.min.js';?>"></script>
+        <script src="<?php echo site_url().'static/cms/js/core/jquery.js';?>"></script>  
 	<script src="<?php echo site_url().'static/assets/js/jquery.prettyPhoto.js';?>" type="text/javascript" charset="utf-8"></script>
 	<script src="<?php echo site_url().'static/assets/js/bootstrap.min.js';?>"></script>
 	<script src="<?php echo site_url().'static/assets/js/jquery.slicknav.js';?>"></script>
