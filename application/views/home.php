@@ -96,9 +96,9 @@
     	<div class="line2">
 			<div class="container">
 				<div class="row Fresh">
-					<div class="col-md-4 Des">
-						<i class="fa fa-heart"></i>
-						<h4>Fresh & Clean Design</h4>
+                                    <div class="col-md-4 Ver">
+						<i class="fa fa-cog"></i>
+						<h4>Very Flexible</h4>
 						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
 					</div>
 					<div class="col-md-4 Ver">
@@ -292,8 +292,8 @@
 				<div class="row Ama">
 					<div class="col-md-12">
 					<span name="projects" id="projectss"></span>
-					<h3>Our Amazing Works</h3>
-					<p>Right here we've got something you gonna love</p>
+					<h3>Nuestros Cursos Asombroso</h3>
+					<!--<p>Right here we've got something you gonna love</p>-->
 					</div>
 				</div>
 			</div>
@@ -619,8 +619,8 @@
 			<div class="container">
 				<div class="row Ama">
 					<div class="col-md-12">
-					<h3>Got a Question? We&rsquo;re Here to Help!</h3>
-					<p>Get in touch with us</p>
+                                            <h3><?php echo replace_vocales_voculeshtml("¿Tienes una pregunta? ¡Estamos aquí para ayudar!");?></h3>
+                                            <p><?php echo replace_vocales_voculeshtml("Póngase en contacto con nosotro");?></p>
 					</div>
 				</div>
 			</div>
@@ -632,7 +632,7 @@
 						<input type="text" class="col-md-6 col-xs-12 name" name='name' placeholder='Nombre *'/>
 						<input type="text" class="col-md-6 col-xs-12 Email" name='Email' placeholder='Email *'/>
 						<input type="text" class="col-md-12 col-xs-12 Subject" name='Subject' placeholder='Asunto'/>
-						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Mesage *'></textarea>
+						<textarea type="text" class="col-md-12 col-xs-12 Message" name='Message' placeholder='Mensage *'></textarea>
 						<div class="cBtn col-xs-12">
 							<ul>
 								<li class="send"><a href="#"><i class="fa fa-share"></i>Enviar Mensaje</a></li>
@@ -645,11 +645,11 @@
 						<li><i class="fa fa-home"></i>5512 Lorem Ipsum Vestibulum 666/13</li>
 						<li><i class="fa fa-phone"></i>+1 800 789 50 12, +1 800 450 6935</li>
 						<li>
-                                                    <a href="#"><i class="fa fa-envelope"></i>mail@compname.com</a>
+                                                    <a href="#"><i class="fa fa-envelope"></i>marketing@ibisar.com</a>
                                                 </li>
-						<li><i class="fa fa-skype"></i>compname</li>
-    						<li><a href="#"><i class="fa fa-facebook-square"></i>Facebook</li></a>
-						<li><a href="#"><i class="fa fa-youtube-play"></i>YouTube</li></a>
+						<li><i class="fa fa-skype"></i>bisar</li>
+                                                <li><a target="_blank" href="https://www.facebook.com/BISARGLOBAL/"><i class="fa fa-facebook-square"></i>Facebook</a></li>
+						<li><a target="_blank" href="https://www.youtube.com/watch?v=Pr9Rj0FgORY"><i class="fa fa-youtube-play"></i>YouTube</a></li>
 					</ul>
 				</div>
 			</div>
