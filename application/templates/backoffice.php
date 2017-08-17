@@ -47,7 +47,7 @@
 		<header class="site-header">
 		  <div class="site-logo">
                       <a href="index.html">
-                          <img src="http://g-axon.com/mouldifi4.3/dark/images/logo.png" alt="Mouldifi" title="Mouldifi">
+                          <img src="http://g-axon.com/mouldifi4.3/dark/images/logo.png" width="100px" alt="Mouldifi" title="Mouldifi">
                       </a>
                   </div>
 		  <div class="sidebar-collapse hidden-xs"><a class="sidebar-collapse-icon" href="#"><i class="icon-menu"></i></a></div>

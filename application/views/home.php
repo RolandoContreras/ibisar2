@@ -1,49 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-		<title>BISAR</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/bootstrap.css';?>">
-		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/font-awesome.css';?>">
-		<link rel='stylesheet' id='camera-css'  href='<?php echo site_url().'static/assets/css/camera.css';?>' type='text/css' media='all'>
-
-		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/slicknav.css';?>">
-		<link rel="stylesheet" href="<?php echo site_url().'static/assets/css/prettyPhoto.css';?>" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="<?php echo site_url().'static/assets/css/style.css';?>">
-		
-		
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery-1.8.3.min.js';?>"></script>
-
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700|Open+Sans:700' rel='stylesheet' type='text/css'>
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.mobile.customized.min.js';?>"></script>
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.easing.1.3.js';?>"></script> 
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/camera.min.js';?>"></script>
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/myscript.js';?>"></script>
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/sorting.js';?>" ></script>
-		<script type="text/javascript" src="<?php echo site_url().'static/assets/js/jquery.isotope.js';?>"></script>
-		<!--script type="text/javascript" src="js/jquery.nav.js"></script-->
-		
-
-		<script>
-			jQuery(function(){
-					jQuery('#camera_wrap_1').camera({
-					transPeriod: 500,
-					time: 3000,
-					height: '490px',
-					thumbnails: false,
-					pagination: true,
-					playPause: false,
-					loader: false,
-					navigation: false,
-					hover: false
-				});
-			});
-		</script>
-		
-	</head>
-	<body>
-    
+  <?php $this->load->view("head");?>
+    <body>
     <!--home start-->
     
     <div id="home">
@@ -61,12 +19,11 @@
 				<div class="col-md-8">
 					<div class="navmenu"style="text-align: center;">
 						<ul id="menu">
-							<li class="active" ><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#project">Projects</a></li>
-							<li><a href="#news">News</a></li>
-							<li class="last"><a href="#contact">Contact</a></li>
-							<!--li><a href="#features">Features</a></li-->
+							<li class="active" ><a href="#home">Inicio</a></li>
+							<li><a href="#about">Acerca</a></li>
+							<li><a href="#project">Cursos</a></li>
+							<li><a href="#news">Noticias</a></li>
+							<li class="last"><a href="#contact">Contacto</a></li>
 						</ul>
 					</div>
 				</div>
@@ -79,17 +36,17 @@
 						<div class="camera_wrap camera_white_skin" id="camera_wrap_1">
 							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>We listen.</h2>
+									<h2>I BISAR - Soy Bisar</h2>
 								</div>
 							</div>
 							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>We discuss.</h2>
+									<h2>Crece - Mejora</h2>
 								</div>
 							</div>
 							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>We develop.</h2>
+									<h2>Renuevate - vive</h2>
 								</div>
 							</div>
 						</div><!-- #camera_wrap_1 -->
