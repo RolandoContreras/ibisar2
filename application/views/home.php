@@ -11,9 +11,9 @@
 			<div class="row">
 				<div class="logo col-md-4">
 					<div>
-						<a href="#">
-							<img src="<?php echo site_url().'static/assets/images/logo.png';?>">
-						</a>
+                                            <a href="#">
+                                                    <img src="<?php echo site_url().'static/assets/images/logo.png';?>">
+                                            </a>
 					</div>
 				</div>
 				<div class="col-md-8">
@@ -22,10 +22,15 @@
 							<li class="active" ><a href="#home">Inicio</a></li>
 							<li><a href="#about">Acerca</a></li>
 							<li><a href="#project">Cursos</a></li>
-							<li><a href="#news">Noticias</a></li>
-							<li class="last"><a href="#contact">Contacto</a></li>
+							<li><a href="#news">Eventos</a></li>
+							<li><a href="#contact">Contacto</a></li>
+                                                        <li><a href="<?php echo site_url().'login'?>">Login</a></li>
 						</ul>
+                                           
 					</div>
+                                    
+						 
+					
 				</div>
 			</div>
 		</div>
@@ -46,7 +51,7 @@
 							</div>
 							<div data-thumb="" data-src="<?php echo site_url().'static/assets/images/slides/blank.gif';?>">
 								<div class="img-responsive camera_caption fadeFromBottom">
-									<h2>Renuevate - vive</h2>
+									<h2>Renuevate - Vive</h2>
 								</div>
 							</div>
 						</div><!-- #camera_wrap_1 -->
@@ -58,26 +63,26 @@
 			<div class="row">
 				<div class="col-md-4 project">
 					<h3 id="counter">0</h3>
-					<h4>Awesome Projects</h4>
-					<p>Dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et lorem a laoreet phasellus ut nisi id leo molestie. </p>
+					<h4>Proyecto Asombroso</h4>
+					<p>Sé parte de la más grande plataforma educativa. Estudia y certificate en Neuromarketing, Coaching, Liderazgo entre otros.</p>
 				</div>
 				<div class="col-md-4 project">
 					<h3 id="counter1">0</h3>
-					<h4>Happy Customers</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus eget diam et. laoreet phasellus ut nisi id leo.  </p>
+					<h4>Clientes Alrededor del mundo.</h4>
+					<p>Que son parte de la comunidad de emprendedores más grande de Latinoamerica y el mundo entero.</p>
 				</div>
 				<div class="col-md-4 project">
 					<h3 id="counter2" style="margin-left: 20px;">0</h3>
-					<h4 style="margin-left: 20px;">Professional Awards</h4>
-					<p>Consectetur adipiscing elit quisque tempus eget diam et laoreet phasellus ut nisi id leo molestie adipiscing vitae a vel. </p>
+					<h4 style="margin-left: 20px;">Profesionales</h4>
+					<p>En acción que te ayudaran a crecer en toda área de tu vida con entrenamientos virtuales y presenciales de acuerto a tu tiempo.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 cBusiness">
-					<h3>The Best Way to Create Business Site &ndash; Attractive One Page</h3>
-					<h4>Discover elegant solution for your online business fast, reliable, affordable.</h4>
+					<h3>El mejor camino para tu crecimiento personal</h3>
+					<h4>Descubre de las novedades que tiene BISAR para ti.</h4>
 				</div>
 			</div>
 		</div>
@@ -98,18 +103,18 @@
 				<div class="row Fresh">
                                     <div class="col-md-4 Ver">
 						<i class="fa fa-cog"></i>
-						<h4>Very Flexible</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<h4>Coaching</h4>
+						<p>Contamos con más de 100 profesionales accionando al servicio del desarrollo y crecimiento del cliente.</p>
 					</div>
 					<div class="col-md-4 Ver">
 						<i class="fa fa-cog"></i>
-						<h4>Very Flexible</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<h4>Liderazgo</h4>
+						<p>Educaciones en el área de liderazgo de la persona, con cursos y módulos virtuales y presenciales.</p>
 					</div>
 					<div class="col-md-4 Fully">
-						<i class="fa fa-tablet"></i>
-						<h4>Fully Responsive</h4>
-						<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor. feugiat </p>
+						<i class="fa fa-cog"></i>
+						<h4>Finanzas</h4>
+						<p>Cursos y certificaciones en mentalidad financiera, teniendo conocimientos del mercado externo, interno para hacer un buen uso del dinero.</p>
 					</div>		
 				</div>
 			</div>
@@ -118,52 +123,8 @@
 			<div class="row">
 				<div class="col-md-12 wwa">
 					<span name="about" ></span>
-					<h3>Who We Are? Meet Our Team!</h3>
-					<h4>We listen, we discuss, we advise and develop. We love to learn and use the latest technologies.</h4>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row team">
-				<div class="col-md-4 b1">
-						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT1.png';?>">
-						<h4>Tom Simpson</h4>
-						<h5>CEO</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br/>quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-						</ul>
-				</div>
-			
-			
-				<div class="col-md-4">
-						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT2.png';?>">
-						<h4>John Doe</h4>
-						<h5>Project Manager</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-						</ul>
-				</div>
-		
-			
-				<div class="col-md-4 b3">
-						<img class="img-responsive" src="<?php echo site_url().'static/assets/images/picTeam/picT3.png';?>">
-						<h4>Anna White</h4>
-						<h5>Developer</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br/> quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
-						<ul>
-							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-							<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							<li><a href="#"><i class="fa fa-twitter" ></i></a></li>
-							<li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-						</ul>
+					<h3><?php echo replace_vocales_voculeshtml("¿Qué es BISAR?");?></h3>
+					<h4>Plataforma de desarrollo y crecimiento personal en Latinoamérica y el mundo entero que ayuda a dar herramientas a las personas en esta nueva era para tener un  crecimiento en áreas como liderazgo y finanzas. Con profesores y coach de primer nivel quienes ayudaran a alcanzar el éxito en los módulos correspondientes.</h4>
 				</div>
 			</div>
 		</div>
@@ -177,112 +138,59 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="64"  data-animate="3500">
+					<div class="progB chart" data-percent="100"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="64">
-							  <span class="percent">64</span>
+							<div class="percentage" data-percent="100">
+							  <span class="percent">100</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>WordPress</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3>Estrategia</h3>
+						<p>Educación Virtual 24/7: Acceso a una amplia biblioteca de cursos certificados disponibles en todo momento.</p>
 					</div>
 				</div>
 				<div class="col-md-3 bar">
-					<div class="progB chart" data-percent="22"  data-animate="3500">
+					<div class="progB chart" data-percent="100"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">22</span>
+							<div class="percentage" data-percent="100">
+							  <span class="percent">100</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>HTML5</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3><?php echo replace_vocales_voculeshtml("Planeación");?></h3>
+						<p>Educación virtual y presencial: Tienes la posibilidad de asistir de forma presencial a los cursos, visitando nuestras sedes y viviendo de primera mano esta revolución educativa.</p>
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="84"  data-animate="3500">
+					<div class="progB chart" data-percent="100"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="22">
-							  <span class="percent">84</span>
+							<div class="percentage" data-percent="100">
+							  <span class="percent">100</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>CSS3</h3>
-						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
+						<h3><?php echo replace_vocales_voculeshtml("Desarrollo");?></h3>
+						<p>Certificación Internacional: Gracias a la calidad de la educación y docentes, tendrás la posibilidad de certificarte de forma internacional por BISAR.</p>
 					</div>
 				</div>
 				<div class="col-md-3 bar ">
-					<div class="progB chart" data-percent="45"  data-animate="3500">
+					<div class="progB chart" data-percent="100"  data-animate="3500">
 						<div class="chart chart-content">
-							<div class="percentage" data-percent="45">
-							  <span class="percent">45</span>
+							<div class="percentage" data-percent="100">
+							  <span class="percent">100</span>
 							</div>
 						</div>
 					</div>
 					<div class="textP">
-						<h3>Woocommerce</h3>
+						<h3><?php echo replace_vocales_voculeshtml("Certificación");?></h3>
 						<p>Nulla consectetur ornare nibh, a auctor <br/>mauris scelerisque eu proin nec urna quis. </p>
 					</div>
 				</div>
 			</div>
 		</div>	
-		
-		
-		<div class="container">
-			<div class="row aboutUs">
-				<div class="col-md-12 ">
-					<h3>What Our Customers Say About Us?</h3>
-				</div>
-			</div>
-		</div>
-		
-		<div style="position: relative;">
-		
-			<div class="container">
-				<div class="row about">
-					<div class="col-md-6">
-						<div class="about1">
-						<img class="pic1Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP1.png';?>">
-							<h3>Anna Smith, Company Inc.</h3>
-							<p>Nulla consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis. aliquam, nulla nisi lobortis elit ac.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about2">
-						<img class="pic2Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP2.png';?>">
-							<h3>John Doe, Company Inc.</h3>
-							<p>Consectetur ornare nibh, a auctor mauris scelerisque eu proin nec urna quis justo, adipiscing auctor, ut auctor feugiat fermentum nec quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, ac luctus.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-			<div class="horL"></div>
-		
-			<div class="container">
-				<div class="row about">
-					<div class="col-md-6">
-						<div class="about1">
-						<img class="pic1Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP3.png';?>">
-							<h3>Tom Sawyer, Company Inc.</h3>
-							<p>A auctor mauris scelerisque eu proin nec urna quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra, felis et venenatis aliquam, nulla nisi lobortis elit, acnterdum ante feugiat vitae.</p>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about2">
-						<img class="pic2Ab" src="<?php echo site_url().'static/assets/images/picAbout/aboutP4.png';?>">
-							<h3>Sarah White, Company Inc.</h3>
-							<p>Ornare nibh a auctor, mauris scelerisque eu proin nec urna nec a quis justo adipiscing auctor ut auctor feugiat fermentum quisque eget pharetra felis et venenatis aliquam, nulla nisi lobortis elit, ac eleifend nisl ante nec lorem. </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
     </div>
     <!--project start-->    
     <div id="project">    	
@@ -292,7 +200,7 @@
 				<div class="row Ama">
 					<div class="col-md-12">
 					<span name="projects" id="projectss"></span>
-					<h3>Nuestros Cursos Asombroso</h3>
+					<h3>Nuestros Cursos</h3>
 					<!--<p>Right here we've got something you gonna love</p>-->
 					</div>
 				</div>
@@ -306,11 +214,9 @@
 			<!-- filter_block -->
 				<div id="options" class="col-md-12" style="text-align: center;">	
 					<ul id="filter" class="option-set" data-option-key="filter">
-						<li><a class="selected" href="#filter" data-option-value="*" class="current">All Works</a></li>
-						<li><a href="#filter" data-option-value=".polygraphy">Polygraphy</a></li>
-						<li><a href="#filter" data-option-value=".branding">Branding</a></li>
-						<li><a href="#filter" data-option-value=".web">Web UI</a></li>
-						<li><a href="#filter" data-option-value=".text_styles">Text Styles</a></li>
+						<li><a class="selected" href="#filter" data-option-value="*" class="current">Cursos Recientes</a></li>
+						<li><a href="#filter" data-option-value=".polygraphy">CURSOS RECOMENDADOS</a></li>
+						<li><a href="#filter" data-option-value=".branding">CURSOS MAS VISTOS</a></li>
 					</ul>
 				</div><!-- //filter_block -->
 		
@@ -318,11 +224,11 @@
 		
 			<div class="portfolio_block columns3   pretty" data-animated="fadeIn">	
 					<div class="element col-sm-4   gall branding">
-						<a class="plS" href="<?php echo site_url().'static/assets/images/prettyPhotoImages/pic1.jpg';?>" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic1.jpg';?>" alt="pic1 Gallery"/>
+						<a class="plS">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic1.png';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Recycled Paper - Business Card Mock Up</a></h3>
+                                                    <h3><a href="#"><?php echo replace_vocales_voculeshtml("¿Cómo dar feedback?");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>215</li>
 								<li><a class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
@@ -330,11 +236,11 @@
 						</div>
 					</div>
 					<div class="element col-sm-4  gall branding">
-						<a class="plS" href="<?php echo site_url().'static/assets/images/prettyPhotoImages/pic2.jpg';?>" rel="prettyPhoto[gallery2]">
+						<a class="plS">
 							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic2.jpg';?>" alt="pic2 Gallery"/>
 						</a>
 						<div class="view project_descr center">
-							<h3><a href="#">Environment Logos Set</a></h3>
+							<h3><a href="#">10 principios de hablar en público</a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>369</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>86</a></li>
@@ -342,11 +248,11 @@
 						</div>
 					</div>
 					<div class="element col-sm-4  gall web">
-						<a class="plS" href="images/prettyPhotoImages/pic3.jpg" rel="prettyPhoto[gallery2]">
+						<a class="plS">
 							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic3.jpg';?>" alt="pic3 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Beag Simple WEB UI</a></h3>
+                                                    <h3><a href="#"><?php echo replace_vocales_voculeshtml("Habla en público");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>400</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>124</a></li>
@@ -357,11 +263,11 @@
 		
 					
 					<div class="element col-sm-4  gall  text_styles">
-						<a class="plS" href="images/prettyPhotoImages/pic4.jpg" rel="prettyPhoto[gallery2]">
+						<a class="plS">
 							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic4.jpg';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Pop Candy Text Effect</a></h3>
+                                                    <h3><a href="#"><?php echo replace_vocales_voculeshtml("10 principios de hablar en público");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>480</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>95</a></li>
@@ -369,11 +275,11 @@
 						</div>
 					</div>
 					<div class="element col-sm-4  gall  web">
-						<a class="plS" href="images/prettyPhotoImages/pic5.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic5.jpg';?>" alt="pic1 Gallery"/>
+						<a class="plS">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic5.png';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr center">
-							<h3><a href="#">User Interface Elements</a></h3>
+							<h3><a href="#"><?php echo replace_vocales_voculeshtml("Cómo usar tus miedos para lograr tu éxito");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>215</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>14</a></li>
@@ -381,11 +287,11 @@
 						</div>
 					</div>
 					<div class="element col-sm-4  gall  polygraphy">
-						<a class="plS" href="images/prettyPhotoImages/pic6.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic6.jpg';?>" alt="pic1 Gallery"/>
+						<a class="plS">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic6.png';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Stationery Branding Mock Up</a></h3>
+							<h3><a href="#"><?php echo replace_vocales_voculeshtml("Tips de lectura veloz");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>375</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>102</a></li>
@@ -393,11 +299,11 @@
 						</div>
 					</div>		
 					<div class="element col-sm-4   gall branding">
-						<a class="plS" href="images/prettyPhotoImages/pic7.jpg" rel="prettyPhoto[gallery2]">
-							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic7.jpg';?>" alt="pic1 Gallery"/>
+						<a class="plS">
+							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic7.png';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Darko - Business Card Mock Up</a></h3>
+							<h3><a href="#"><?php echo replace_vocales_voculeshtml("Cómo ahorrar dinero para invertir");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>440</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>35</a></li>
@@ -406,11 +312,11 @@
 					</div>
 					
 					<div class="element col-sm-4  gall text_styles">
-						<a class="plS" href="images/prettyPhotoImages/pic8.jpg" rel="prettyPhoto[gallery2]">
+						<a class="plS">
 							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic8.jpg';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Foil Mini Badges</a></h3>
+							<h3><a href="#"><?php echo replace_vocales_voculeshtml("¿Por qué me pasa esto a mí?");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>512</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>36</a></li>
@@ -419,11 +325,11 @@
 					</div>
 					
 					<div class="element col-sm-4  gall polygraphy">
-						<a class="plS" href="images/prettyPhotoImages/pic9.jpg" rel="prettyPhoto[gallery2]">
+						<a class="plS">
 							<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/prettyPhotoImages/thumb_pic9.jpg';?>" alt="pic1 Gallery"/>
 						</a>
 						<div class="view project_descr ">
-							<h3><a href="#">Woody Poster Text Effect</a></h3>
+							<h3><a href="#"><?php echo replace_vocales_voculeshtml("Pequeños líderes");?></a></h3>
 							<ul>
 								<li><i class="fa fa-eye"></i>693</li>
 								<li><a  class="heart" href="#"><i class="fa-heart-o"></i>204</a></li>
@@ -436,14 +342,9 @@
 				
 					<div class="col-md-12 cBtn  lb" style="text-align: center;">
 						<ul class="load_more_cont ">
-							<li class="dowbload btn_load_more">
-								<a href="javascript:void(0);" >
-									<i class="fa fa-arrow-down"></i>Load More Projects
-								</a>
-							</li>
 							<li class="buy">
 								<a href="#">
-									<i class="fa fa-shopping-cart"></i>Buy on Themeforest
+									<i class="fa fa-shopping-cart"></i>Ver Cursos
 								</a>
 							</li>
 						</ul>
@@ -487,8 +388,7 @@
 			<div class="container">
 				<div class="row Ama">
 					<div class="col-md-12">
-					<h3>What&rsquo;s New?</h3>
-					<p>Get the latest news from our blog</p>
+					<h3>Eventos</h3>
 					</div>
 				</div>
 			</div>
@@ -496,25 +396,23 @@
 		<div class="container">
 				<div class="row news">
 					<div class="col-md-6  text-left">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news1.jpg';?>"/>
-					<h3><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news1.png';?>"/>
+					<h3><a href="#">Lectura de Alto Rendimiento</a></h3>
 					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><i class="fa fa-calendar"></i>April 25, 2017</li>
 						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<p>Capacítate con la Dr. Ana María en su curso de lectura de alto rendimiento, y ten un certificado avalado por BISAR.<a class="readMore" href="#">Leer Más<i class="fa fa-angle-right"></i></a></p>
 					<hr class="hrNews">
 					</div>
 					<div class="col-md-6 text-right">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news2.jpg';?>"/>
-					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news2.jpeg';?>"/>
+					<h3><a href="#">Lectura de Alto Rendimiento</a></h3>
 					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><i class="fa fa-calendar"></i>April 30, 2017</li>
 						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<p>Capacítate con la Dr. Ana María en su curso de lectura de alto rendimiento, y ten un certificado avalado por BISAR.<a class="readMore" href="#">Leer Más<i class="fa fa-angle-right"></i></a></p>
 					<hr class="hrNews">
 					</div>
 				</div>
@@ -522,80 +420,23 @@
 			<div class="container">
 				<div class="row news2 news">
 					<div class="col-md-6 text-left">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news3.jpg';?>"/>
-					<h3><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news3.jpeg';?>"/>
+					<h3><a href="#">Lectura de Alto Rendimiento</a></h3>
 					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><i class="fa fa-calendar"></i>Mayo 23, 2017</li>
 						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<p>Capacítate con la Dr. Ana María en su curso de lectura de alto rendimiento, y ten un certificado avalado por BISAR. <a class="readMore" href="#">Leer Más<i class="fa fa-angle-right"></i></a></p>
 					<hr class="hrNews">
 					</div>
 					<div class="col-md-6 text-right">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news4.jpg';?>"/>
-					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
+					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news4.png';?>"/>
+					<h3><a href="#">Lectura de Alto Rendimiento</a></h3>
 					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
+						<li><i class="fa fa-calendar"></i>Junio 06, 2017</li>
 						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
 					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-					<hr class="hrNews">
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row news2 news">
-					<div class="col-md-6 text-left">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news5.jpg';?>"/>
-					<h3 ><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
-						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
-					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-					<hr class="hrNews">
-					</div>
-					<div class="col-md-6 text-right">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news6.jpg';?>"/>
-					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
-						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
-					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-					<hr class="hrNews">
-					</div>
-				</div>
-			</div>
-			
-			
-			
-			<div class="container hideObj2" style="display:none;">
-				<div class="row news2 news">
-					<div class="col-md-6 text-right">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news6.jpg';?>"/>
-					<h3><a href="#">Nam in Nisl id Ipsum Feugiat Posuere ut sit Amet Sem</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
-						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
-					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
-					<hr class="hrNews">
-					</div>
-					<div class="col-md-6 text-left">
-					<img class="img-responsive picsGall" src="<?php echo site_url().'static/assets/images/picNews/news5.jpg';?>"/>
-					<h3 ><a href="#">Lorem Ipsum Dolor sit Amet Pelenntesque Sodales!</a></h3>
-					<ul>
-						<li><i class="fa fa-calendar"></i>April 25, 2014</li>
-						<li><a href="#"><i class="fa fa-folder-open"></i>Staff</a></li>
-						<li><a href="#"><i class="fa fa-comments"></i>17 comments</a></li>
-					</ul>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget. <a class="readMore" href="#">Read More <i class="fa fa-angle-right"></i></a></p>
+					<p>Capacítate con la Dr. Ana María en su curso de lectura de alto rendimiento, y ten un certificado avalado por BISAR. <a class="readMore" href="#">Leer Más<i class="fa fa-angle-right"></i></a></p>
 					<hr class="hrNews">
 					</div>
 				</div>
@@ -604,7 +445,7 @@
 			<div class="row cBtn">
 				<div class="col-md-12" style="text-align: center; margin-bottom: -90px; z-index: 10;">
 					<ul class="mNews">
-						<li class="dowbload bhide2"><a href="#"><i class="fa fa-arrow-down"></i>Load More news</a></li>
+						<li class="dowbload"><a href="javascript:void(0);"><i class="fa fa-arrow-down"></i>Ver Eventos</a></li>
 					</ul>
 				</div>
 			</div>
@@ -642,8 +483,8 @@
 				</div>
 				<div class="col-md-3 col-xs-12 cont">
 					<ul>
-						<li><i class="fa fa-home"></i>5512 Lorem Ipsum Vestibulum 666/13</li>
-						<li><i class="fa fa-phone"></i>+1 800 789 50 12, +1 800 450 6935</li>
+						<li><i class="fa fa-home"></i>Av. José Parde 231 - Miraflores</li>
+						<li><i class="fa fa-phone"></i>+51 800 789 50 12</li>
 						<li>
                                                     <a href="#"><i class="fa fa-envelope"></i>marketing@ibisar.com</a>
                                                 </li>
@@ -661,13 +502,12 @@
 			<div class="row ftext">
 				<div class="col-md-12">
 				<a id="features"></a>
-				<h3>We Care About Our Clients and Can Make Their Life Easier!</h3>
-				<p>The main peculiarity of template is the striking presentation when visitors just need to use the scrolling option to find all necessary information about your web project. </p>
+				<h3>Nos preocupamos por nuestros clientes y podemos hacer su vida más fácil!</h3>
+				<p>No te pierdas esta oportunidad y sé parte de esta revolución que cambiará tu vida, sé parte de BISAR.</p>
 				</div>
 				<div class="cBtn">
 					<ul style="margin-top: 23px; margin-bottom: 0px; padding-left: 26px;">
-						<li class="dowbload"><a href="#"><i class="fa fa-star"></i>View All Features</a></li>
-						<li class="buy"><a href="#"><i class="fa fa-download"></i>Buy This Template</a></li>
+                                            <li class="dowbload"><a href="#"><i class="fa fa-star"></i><?php echo replace_vocales_voculeshtml("Regístrate");?></a></li>
 					</ul>
 			</div>
 			</div>
@@ -687,14 +527,9 @@
 					</div>
 					<div class="soc col-md-12">
 						<ul>
-							<li class="soc1"><a href="#"></a></li>
-							<li class="soc2"><a href="#"></a></li>
-							<li class="soc3"><a href="#"></a></li>
-							<li class="soc4"><a href="#"></a></li>
-							<li class="soc5"><a href="#"></a></li>
-							<li class="soc6"><a href="#"></a></li>
+                                                    <li class="soc2"><a target="_blank" href="https://www.facebook.com/BISARGLOBAL/?sw_fnr_id=29654392&fnr_t=0"></a></li>
+							<li class="soc6"><a target="_blank" href="https://www.youtube.com/watch?v=Pr9Rj0FgORY&t=9s"></a></li>
 							<li class="soc7"><a href="#"></a></li>
-							<li class="soc8"><a href="#"></a></li>
 							
 						</ul>
 					</div>
@@ -709,12 +544,12 @@
 					</div>
 					<div class="col-md-6 text-right dm">
 						<ul id="downMenu">
-							<li class="active"><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#project1">Projects</a></li>
-							<li><a href="#news">News</a></li>
-							<li class="last"><a href="#contact">Contact</a></li>
-							<!--li><a href="#features">Features</a></li-->
+							<li class="active"><a href="#home">Inicio</a></li>
+							<li><a href="#about">Acerca</a></li>
+							<li><a href="#project1">Cursos</a></li>
+							<li><a href="#news">Eventos</a></li>
+							<li class="last"><a href="#contact">Contacto</a></li>
+                                                        <li><a href="<?php echo site_url().'login'?>">Login</a></li>
 						</ul>
 					</div>
 				</div>
@@ -756,7 +591,7 @@
 				b=rr[0].replace(/(\d{1,3}(?=(\d{3})+(?:\.\d|\b)))/g,"\$1"+separator);
 				r=(rr[1]?b+'.'+rr[1]:b);
 
-				return r;
+				return "+"+r;
 }
 				
 			setTimeout(function(){
@@ -768,13 +603,13 @@
 						var curval=parseInt($('#counter').text());
 						var curval1=parseInt($('#counter1').text().replace(' ',''));
 						var curval2=parseInt($('#counter2').text());
-						if(curval<=707){
+						if(curval<=0){
 							$('#counter').text(curval+1);
 						}
-						if(curval1<=12280){
+						if(curval1<=14980){
 							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
 						}
-						if(curval2<=245){
+						if(curval2<=99){
 							$('#counter2').text(curval2+1);
 						}
 					}, 2);
