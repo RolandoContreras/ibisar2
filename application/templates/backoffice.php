@@ -50,7 +50,7 @@
 		<header class="site-header">
 		  <div class="site-logo">
                       <a href="index.html">
-                          <img src="<?php echo site_url().'static/backoffice/images/logo_120.png'?>" width="100px" alt="Mouldifi" title="Mouldifi">
+                          <img src="<?php echo site_url().'static/backoffice/images/logo_120.png'?>" width="100px" alt="BISAR" title="BISAR">
                       </a>
                   </div>
 		  <div class="sidebar-collapse hidden-xs"><a class="sidebar-collapse-icon" href="#"><i class="icon-menu"></i></a></div>
@@ -98,9 +98,12 @@
     <div class="main-header row">
       <div class="col-sm-6 col-xs-7">
 	  
-		<!-- User info -->
+	<!-- User info -->
         <ul class="user-info pull-left">          
-          <li class="profile-info dropdown"><a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"> <img width="44" class="img-circle avatar" alt="" src="images/man-3.jpg">John Henderson <span class="caret"></span></a>
+          <li class="profile-info dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"> 
+                  <img width="44" class="img-circle avatar" alt="" src="<?php echo site_url().'static/backoffice/images/avatar/avatar.jpg';?>">Rolando Contreras &nbsp;&nbsp;<i class="fa fa-arrow-down" aria-hidden="true"></i>
+              </a>
 		  
 			<!-- User action menu -->
             <ul class="dropdown-menu">
