@@ -60,7 +60,7 @@ function send_login(){
         data: {username : username, password:password},
         success:function(data){            
             if (data.message == "false"){                         
-                no_login();
+//                no_login();
                 spinner.stop(); 
             }else{
                 $(location).attr('href',data.url);  
@@ -68,7 +68,7 @@ function send_login(){
         }            
     });
   }else{
-   llene_campos();
+//   llene_campos();
    spinner.stop(); 
   }   
 }
